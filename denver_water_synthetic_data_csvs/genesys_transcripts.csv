@@ -1,0 +1,801 @@
+transcript_id,interaction_id,sequence_number,speaker,message,spoken_at
+TR0000001,INT00001,1,customer,My water bill is much higher than normal this month.,2026-07-01 13:00:35
+TR0000002,INT00001,2,agent,I can review your recent billing and water consumption.,2026-07-01 13:01:10
+TR0000003,INT00001,3,customer,I have not made any major changes at home.,2026-07-01 13:01:45
+TR0000004,INT00001,4,agent,I will check for unusual usage and any relevant account history.,2026-07-01 13:02:20
+TR0000005,INT00002,1,customer,I have no water at my house right now.,2026-07-01 18:00:35
+TR0000006,INT00002,2,agent,I will check your account and see whether there is already field work in progress.,2026-07-01 18:01:10
+TR0000007,INT00002,3,customer,Do you know when someone will arrive?,2026-07-01 18:01:45
+TR0000008,INT00002,4,agent,Let me review the current field activity status.,2026-07-01 18:02:20
+TR0000009,INT00003,1,customer,I received information about a lead service line. What is the status for my property?,2026-07-01 23:00:35
+TR0000010,INT00003,2,agent,I will check the Lead Reduction Program information for your premise.,2026-07-01 23:01:10
+TR0000011,INT00003,3,customer,Is a replacement already scheduled?,2026-07-01 23:01:45
+TR0000012,INT00003,4,agent,Let me review the current program status and dates.,2026-07-01 23:02:20
+TR0000013,INT00004,1,customer,I made a payment recently and want to make sure it posted.,2026-07-02 04:00:35
+TR0000014,INT00004,2,agent,I will check your payment history and current balance.,2026-07-02 04:01:10
+TR0000015,INT00004,3,customer,It was made online yesterday.,2026-07-02 04:01:45
+TR0000016,INT00004,4,agent,I can confirm the latest posted payment for you.,2026-07-02 04:02:20
+TR0000017,INT00005,1,customer,I need to transfer water service because a new tenant is moving in.,2026-07-02 09:00:35
+TR0000018,INT00005,2,agent,"I will review the account, premise, and service history.",2026-07-02 09:01:10
+TR0000019,INT00005,3,customer,The change should be effective this month.,2026-07-02 09:01:45
+TR0000020,INT00005,4,agent,I will verify the current relationship and transfer details.,2026-07-02 09:02:20
+TR0000021,INT00006,1,customer,I have a question about my meter and the latest reading.,2026-07-02 14:00:35
+TR0000022,INT00006,2,agent,I will review your meter information and consumption history.,2026-07-02 14:01:10
+TR0000023,INT00006,3,customer,The usage looks unusual.,2026-07-02 14:01:45
+TR0000024,INT00006,4,agent,I will check the meter status and recent reads.,2026-07-02 14:02:20
+TR0000025,INT00007,1,customer,Is there a water outage affecting my area?,2026-07-02 19:00:35
+TR0000026,INT00007,2,agent,I will check the available operational information for your service address.,2026-07-02 19:01:10
+TR0000027,INT00007,3,customer,I noticed low pressure this morning.,2026-07-02 19:01:45
+TR0000028,INT00007,4,agent,I will review your account context and any available outage information.,2026-07-02 19:02:20
+TR0000029,INT00008,1,customer,My water bill is much higher than normal this month.,2026-07-03 00:00:35
+TR0000030,INT00008,2,agent,I can review your recent billing and water consumption.,2026-07-03 00:01:10
+TR0000031,INT00008,3,customer,I have not made any major changes at home.,2026-07-03 00:01:45
+TR0000032,INT00008,4,agent,I will check for unusual usage and any relevant account history.,2026-07-03 00:02:20
+TR0000033,INT00009,1,customer,I received information about a lead service line. What is the status for my property?,2026-07-03 05:00:35
+TR0000034,INT00009,2,agent,I will check the Lead Reduction Program information for your premise.,2026-07-03 05:01:10
+TR0000035,INT00009,3,customer,Is a replacement already scheduled?,2026-07-03 05:01:45
+TR0000036,INT00009,4,agent,Let me review the current program status and dates.,2026-07-03 05:02:20
+TR0000037,INT00010,1,customer,I am calling about a general service question on my account.,2026-07-03 10:00:35
+TR0000038,INT00010,2,agent,I can review the relevant account information and history.,2026-07-03 10:01:10
+TR0000039,INT00010,3,customer,Can you tell me what you find?,2026-07-03 10:01:45
+TR0000040,INT00010,4,agent,"Yes, I will check the available information and next steps.",2026-07-03 10:02:20
+TR0000041,INT00011,1,customer,I am calling about a general inquiry on my account.,2026-07-03 15:00:35
+TR0000042,INT00011,2,agent,I can review the relevant account information and history.,2026-07-03 15:01:10
+TR0000043,INT00011,3,customer,Can you tell me what you find?,2026-07-03 15:01:45
+TR0000044,INT00011,4,agent,"Yes, I will check the available information and next steps.",2026-07-03 15:02:20
+TR0000045,INT00012,1,customer,My water bill is much higher than normal this month.,2026-07-03 20:00:35
+TR0000046,INT00012,2,agent,I can review your recent billing and water consumption.,2026-07-03 20:01:10
+TR0000047,INT00012,3,customer,I have not made any major changes at home.,2026-07-03 20:01:45
+TR0000048,INT00012,4,agent,I will check for unusual usage and any relevant account history.,2026-07-03 20:02:20
+TR0000049,INT00013,1,customer,I made a payment recently and want to make sure it posted.,2026-07-04 01:00:35
+TR0000050,INT00013,2,agent,I will check your payment history and current balance.,2026-07-04 01:01:10
+TR0000051,INT00013,3,customer,It was made online yesterday.,2026-07-04 01:01:45
+TR0000052,INT00013,4,agent,I can confirm the latest posted payment for you.,2026-07-04 01:02:20
+TR0000053,INT00014,1,customer,I am calling about a possible leak on my account.,2026-07-04 06:00:35
+TR0000054,INT00014,2,agent,I can review the relevant account information and history.,2026-07-04 06:01:10
+TR0000055,INT00014,3,customer,Can you tell me what you find?,2026-07-04 06:01:45
+TR0000056,INT00014,4,agent,"Yes, I will check the available information and next steps.",2026-07-04 06:02:20
+TR0000057,INT00015,1,customer,I need to transfer water service because a new tenant is moving in.,2026-07-04 11:00:35
+TR0000058,INT00015,2,agent,"I will review the account, premise, and service history.",2026-07-04 11:01:10
+TR0000059,INT00015,3,customer,The change should be effective this month.,2026-07-04 11:01:45
+TR0000060,INT00015,4,agent,I will verify the current relationship and transfer details.,2026-07-04 11:02:20
+TR0000061,INT00016,1,customer,I have no water at my house right now.,2026-07-04 16:00:35
+TR0000062,INT00016,2,agent,I will check your account and see whether there is already field work in progress.,2026-07-04 16:01:10
+TR0000063,INT00016,3,customer,Do you know when someone will arrive?,2026-07-04 16:01:45
+TR0000064,INT00016,4,agent,Let me review the current field activity status.,2026-07-04 16:02:20
+TR0000065,INT00017,1,customer,I am calling about a field activity status on my account.,2026-07-04 21:00:35
+TR0000066,INT00017,2,agent,I can review the relevant account information and history.,2026-07-04 21:01:10
+TR0000067,INT00017,3,customer,Can you tell me what you find?,2026-07-04 21:01:45
+TR0000068,INT00017,4,agent,"Yes, I will check the available information and next steps.",2026-07-04 21:02:20
+TR0000069,INT00018,1,customer,I have a question about my meter and the latest reading.,2026-07-05 02:00:35
+TR0000070,INT00018,2,agent,I will review your meter information and consumption history.,2026-07-05 02:01:10
+TR0000071,INT00018,3,customer,The usage looks unusual.,2026-07-05 02:01:45
+TR0000072,INT00018,4,agent,I will check the meter status and recent reads.,2026-07-05 02:02:20
+TR0000073,INT00019,1,customer,Is there a water outage affecting my area?,2026-07-05 07:00:35
+TR0000074,INT00019,2,agent,I will check the available operational information for your service address.,2026-07-05 07:01:10
+TR0000075,INT00019,3,customer,I noticed low pressure this morning.,2026-07-05 07:01:45
+TR0000076,INT00019,4,agent,I will review your account context and any available outage information.,2026-07-05 07:02:20
+TR0000077,INT00020,1,customer,I am calling about a billing explanation on my account.,2026-07-05 12:00:35
+TR0000078,INT00020,2,agent,I can review the relevant account information and history.,2026-07-05 12:01:10
+TR0000079,INT00020,3,customer,Can you tell me what you find?,2026-07-05 12:01:45
+TR0000080,INT00020,4,agent,"Yes, I will check the available information and next steps.",2026-07-05 12:02:20
+TR0000081,INT00021,1,customer,I received information about a lead service line. What is the status for my property?,2026-07-05 17:00:35
+TR0000082,INT00021,2,agent,I will check the Lead Reduction Program information for your premise.,2026-07-05 17:01:10
+TR0000083,INT00021,3,customer,Is a replacement already scheduled?,2026-07-05 17:01:45
+TR0000084,INT00021,4,agent,Let me review the current program status and dates.,2026-07-05 17:02:20
+TR0000085,INT00022,1,customer,I am calling about a general service question on my account.,2026-07-05 22:00:35
+TR0000086,INT00022,2,agent,I can review the relevant account information and history.,2026-07-05 22:01:10
+TR0000087,INT00022,3,customer,Can you tell me what you find?,2026-07-05 22:01:45
+TR0000088,INT00022,4,agent,"Yes, I will check the available information and next steps.",2026-07-05 22:02:20
+TR0000089,INT00023,1,customer,I am calling about a general inquiry on my account.,2026-07-06 03:00:35
+TR0000090,INT00023,2,agent,I can review the relevant account information and history.,2026-07-06 03:01:10
+TR0000091,INT00023,3,customer,Can you tell me what you find?,2026-07-06 03:01:45
+TR0000092,INT00023,4,agent,"Yes, I will check the available information and next steps.",2026-07-06 03:02:20
+TR0000093,INT00024,1,customer,My water bill is much higher than normal this month.,2026-07-06 08:00:35
+TR0000094,INT00024,2,agent,I can review your recent billing and water consumption.,2026-07-06 08:01:10
+TR0000095,INT00024,3,customer,I have not made any major changes at home.,2026-07-06 08:01:45
+TR0000096,INT00024,4,agent,I will check for unusual usage and any relevant account history.,2026-07-06 08:02:20
+TR0000097,INT00025,1,customer,I made a payment recently and want to make sure it posted.,2026-07-06 13:00:35
+TR0000098,INT00025,2,agent,I will check your payment history and current balance.,2026-07-06 13:01:10
+TR0000099,INT00025,3,customer,It was made online yesterday.,2026-07-06 13:01:45
+TR0000100,INT00025,4,agent,I can confirm the latest posted payment for you.,2026-07-06 13:02:20
+TR0000101,INT00026,1,customer,I am calling about a possible leak on my account.,2026-07-06 18:00:35
+TR0000102,INT00026,2,agent,I can review the relevant account information and history.,2026-07-06 18:01:10
+TR0000103,INT00026,3,customer,Can you tell me what you find?,2026-07-06 18:01:45
+TR0000104,INT00026,4,agent,"Yes, I will check the available information and next steps.",2026-07-06 18:02:20
+TR0000105,INT00027,1,customer,I need to transfer water service because a new tenant is moving in.,2026-07-06 23:00:35
+TR0000106,INT00027,2,agent,"I will review the account, premise, and service history.",2026-07-06 23:01:10
+TR0000107,INT00027,3,customer,The change should be effective this month.,2026-07-06 23:01:45
+TR0000108,INT00027,4,agent,I will verify the current relationship and transfer details.,2026-07-06 23:02:20
+TR0000109,INT00028,1,customer,I have no water at my house right now.,2026-07-07 04:00:35
+TR0000110,INT00028,2,agent,I will check your account and see whether there is already field work in progress.,2026-07-07 04:01:10
+TR0000111,INT00028,3,customer,Do you know when someone will arrive?,2026-07-07 04:01:45
+TR0000112,INT00028,4,agent,Let me review the current field activity status.,2026-07-07 04:02:20
+TR0000113,INT00029,1,customer,I am calling about a field activity status on my account.,2026-07-07 09:00:35
+TR0000114,INT00029,2,agent,I can review the relevant account information and history.,2026-07-07 09:01:10
+TR0000115,INT00029,3,customer,Can you tell me what you find?,2026-07-07 09:01:45
+TR0000116,INT00029,4,agent,"Yes, I will check the available information and next steps.",2026-07-07 09:02:20
+TR0000117,INT00030,1,customer,I have a question about my meter and the latest reading.,2026-07-07 14:00:35
+TR0000118,INT00030,2,agent,I will review your meter information and consumption history.,2026-07-07 14:01:10
+TR0000119,INT00030,3,customer,The usage looks unusual.,2026-07-07 14:01:45
+TR0000120,INT00030,4,agent,I will check the meter status and recent reads.,2026-07-07 14:02:20
+TR0000121,INT00031,1,customer,Is there a water outage affecting my area?,2026-07-07 19:00:35
+TR0000122,INT00031,2,agent,I will check the available operational information for your service address.,2026-07-07 19:01:10
+TR0000123,INT00031,3,customer,I noticed low pressure this morning.,2026-07-07 19:01:45
+TR0000124,INT00031,4,agent,I will review your account context and any available outage information.,2026-07-07 19:02:20
+TR0000125,INT00032,1,customer,I am calling about a billing explanation on my account.,2026-07-08 00:00:35
+TR0000126,INT00032,2,agent,I can review the relevant account information and history.,2026-07-08 00:01:10
+TR0000127,INT00032,3,customer,Can you tell me what you find?,2026-07-08 00:01:45
+TR0000128,INT00032,4,agent,"Yes, I will check the available information and next steps.",2026-07-08 00:02:20
+TR0000129,INT00033,1,customer,I received information about a lead service line. What is the status for my property?,2026-07-08 05:00:35
+TR0000130,INT00033,2,agent,I will check the Lead Reduction Program information for your premise.,2026-07-08 05:01:10
+TR0000131,INT00033,3,customer,Is a replacement already scheduled?,2026-07-08 05:01:45
+TR0000132,INT00033,4,agent,Let me review the current program status and dates.,2026-07-08 05:02:20
+TR0000133,INT00034,1,customer,I am calling about a general service question on my account.,2026-07-08 10:00:35
+TR0000134,INT00034,2,agent,I can review the relevant account information and history.,2026-07-08 10:01:10
+TR0000135,INT00034,3,customer,Can you tell me what you find?,2026-07-08 10:01:45
+TR0000136,INT00034,4,agent,"Yes, I will check the available information and next steps.",2026-07-08 10:02:20
+TR0000137,INT00035,1,customer,I am calling about a general inquiry on my account.,2026-07-08 15:00:35
+TR0000138,INT00035,2,agent,I can review the relevant account information and history.,2026-07-08 15:01:10
+TR0000139,INT00035,3,customer,Can you tell me what you find?,2026-07-08 15:01:45
+TR0000140,INT00035,4,agent,"Yes, I will check the available information and next steps.",2026-07-08 15:02:20
+TR0000141,INT00036,1,customer,My water bill is much higher than normal this month.,2026-07-08 20:00:35
+TR0000142,INT00036,2,agent,I can review your recent billing and water consumption.,2026-07-08 20:01:10
+TR0000143,INT00036,3,customer,I have not made any major changes at home.,2026-07-08 20:01:45
+TR0000144,INT00036,4,agent,I will check for unusual usage and any relevant account history.,2026-07-08 20:02:20
+TR0000145,INT00037,1,customer,I made a payment recently and want to make sure it posted.,2026-07-09 01:00:35
+TR0000146,INT00037,2,agent,I will check your payment history and current balance.,2026-07-09 01:01:10
+TR0000147,INT00037,3,customer,It was made online yesterday.,2026-07-09 01:01:45
+TR0000148,INT00037,4,agent,I can confirm the latest posted payment for you.,2026-07-09 01:02:20
+TR0000149,INT00038,1,customer,I am calling about a possible leak on my account.,2026-07-09 06:00:35
+TR0000150,INT00038,2,agent,I can review the relevant account information and history.,2026-07-09 06:01:10
+TR0000151,INT00038,3,customer,Can you tell me what you find?,2026-07-09 06:01:45
+TR0000152,INT00038,4,agent,"Yes, I will check the available information and next steps.",2026-07-09 06:02:20
+TR0000153,INT00039,1,customer,I need to transfer water service because a new tenant is moving in.,2026-07-09 11:00:35
+TR0000154,INT00039,2,agent,"I will review the account, premise, and service history.",2026-07-09 11:01:10
+TR0000155,INT00039,3,customer,The change should be effective this month.,2026-07-09 11:01:45
+TR0000156,INT00039,4,agent,I will verify the current relationship and transfer details.,2026-07-09 11:02:20
+TR0000157,INT00040,1,customer,I have no water at my house right now.,2026-07-09 16:00:35
+TR0000158,INT00040,2,agent,I will check your account and see whether there is already field work in progress.,2026-07-09 16:01:10
+TR0000159,INT00040,3,customer,Do you know when someone will arrive?,2026-07-09 16:01:45
+TR0000160,INT00040,4,agent,Let me review the current field activity status.,2026-07-09 16:02:20
+TR0000161,INT00041,1,customer,I am calling about a field activity status on my account.,2026-07-09 21:00:35
+TR0000162,INT00041,2,agent,I can review the relevant account information and history.,2026-07-09 21:01:10
+TR0000163,INT00041,3,customer,Can you tell me what you find?,2026-07-09 21:01:45
+TR0000164,INT00041,4,agent,"Yes, I will check the available information and next steps.",2026-07-09 21:02:20
+TR0000165,INT00042,1,customer,I have a question about my meter and the latest reading.,2026-07-10 02:00:35
+TR0000166,INT00042,2,agent,I will review your meter information and consumption history.,2026-07-10 02:01:10
+TR0000167,INT00042,3,customer,The usage looks unusual.,2026-07-10 02:01:45
+TR0000168,INT00042,4,agent,I will check the meter status and recent reads.,2026-07-10 02:02:20
+TR0000169,INT00043,1,customer,Is there a water outage affecting my area?,2026-07-10 07:00:35
+TR0000170,INT00043,2,agent,I will check the available operational information for your service address.,2026-07-10 07:01:10
+TR0000171,INT00043,3,customer,I noticed low pressure this morning.,2026-07-10 07:01:45
+TR0000172,INT00043,4,agent,I will review your account context and any available outage information.,2026-07-10 07:02:20
+TR0000173,INT00044,1,customer,I am calling about a billing explanation on my account.,2026-07-10 12:00:35
+TR0000174,INT00044,2,agent,I can review the relevant account information and history.,2026-07-10 12:01:10
+TR0000175,INT00044,3,customer,Can you tell me what you find?,2026-07-10 12:01:45
+TR0000176,INT00044,4,agent,"Yes, I will check the available information and next steps.",2026-07-10 12:02:20
+TR0000177,INT00045,1,customer,I received information about a lead service line. What is the status for my property?,2026-07-10 17:00:35
+TR0000178,INT00045,2,agent,I will check the Lead Reduction Program information for your premise.,2026-07-10 17:01:10
+TR0000179,INT00045,3,customer,Is a replacement already scheduled?,2026-07-10 17:01:45
+TR0000180,INT00045,4,agent,Let me review the current program status and dates.,2026-07-10 17:02:20
+TR0000181,INT00046,1,customer,I am calling about a general service question on my account.,2026-07-10 22:00:35
+TR0000182,INT00046,2,agent,I can review the relevant account information and history.,2026-07-10 22:01:10
+TR0000183,INT00046,3,customer,Can you tell me what you find?,2026-07-10 22:01:45
+TR0000184,INT00046,4,agent,"Yes, I will check the available information and next steps.",2026-07-10 22:02:20
+TR0000185,INT00047,1,customer,I am calling about a general inquiry on my account.,2026-07-11 03:00:35
+TR0000186,INT00047,2,agent,I can review the relevant account information and history.,2026-07-11 03:01:10
+TR0000187,INT00047,3,customer,Can you tell me what you find?,2026-07-11 03:01:45
+TR0000188,INT00047,4,agent,"Yes, I will check the available information and next steps.",2026-07-11 03:02:20
+TR0000189,INT00048,1,customer,My water bill is much higher than normal this month.,2026-07-11 08:00:35
+TR0000190,INT00048,2,agent,I can review your recent billing and water consumption.,2026-07-11 08:01:10
+TR0000191,INT00048,3,customer,I have not made any major changes at home.,2026-07-11 08:01:45
+TR0000192,INT00048,4,agent,I will check for unusual usage and any relevant account history.,2026-07-11 08:02:20
+TR0000193,INT00049,1,customer,I made a payment recently and want to make sure it posted.,2026-07-11 13:00:35
+TR0000194,INT00049,2,agent,I will check your payment history and current balance.,2026-07-11 13:01:10
+TR0000195,INT00049,3,customer,It was made online yesterday.,2026-07-11 13:01:45
+TR0000196,INT00049,4,agent,I can confirm the latest posted payment for you.,2026-07-11 13:02:20
+TR0000197,INT00050,1,customer,I am calling about a possible leak on my account.,2026-07-11 18:00:35
+TR0000198,INT00050,2,agent,I can review the relevant account information and history.,2026-07-11 18:01:10
+TR0000199,INT00050,3,customer,Can you tell me what you find?,2026-07-11 18:01:45
+TR0000200,INT00050,4,agent,"Yes, I will check the available information and next steps.",2026-07-11 18:02:20
+TR0000201,INT00051,1,customer,I need to transfer water service because a new tenant is moving in.,2026-07-11 23:00:35
+TR0000202,INT00051,2,agent,"I will review the account, premise, and service history.",2026-07-11 23:01:10
+TR0000203,INT00051,3,customer,The change should be effective this month.,2026-07-11 23:01:45
+TR0000204,INT00051,4,agent,I will verify the current relationship and transfer details.,2026-07-11 23:02:20
+TR0000205,INT00052,1,customer,I have no water at my house right now.,2026-07-12 04:00:35
+TR0000206,INT00052,2,agent,I will check your account and see whether there is already field work in progress.,2026-07-12 04:01:10
+TR0000207,INT00052,3,customer,Do you know when someone will arrive?,2026-07-12 04:01:45
+TR0000208,INT00052,4,agent,Let me review the current field activity status.,2026-07-12 04:02:20
+TR0000209,INT00053,1,customer,I am calling about a field activity status on my account.,2026-07-12 09:00:35
+TR0000210,INT00053,2,agent,I can review the relevant account information and history.,2026-07-12 09:01:10
+TR0000211,INT00053,3,customer,Can you tell me what you find?,2026-07-12 09:01:45
+TR0000212,INT00053,4,agent,"Yes, I will check the available information and next steps.",2026-07-12 09:02:20
+TR0000213,INT00054,1,customer,I have a question about my meter and the latest reading.,2026-07-12 14:00:35
+TR0000214,INT00054,2,agent,I will review your meter information and consumption history.,2026-07-12 14:01:10
+TR0000215,INT00054,3,customer,The usage looks unusual.,2026-07-12 14:01:45
+TR0000216,INT00054,4,agent,I will check the meter status and recent reads.,2026-07-12 14:02:20
+TR0000217,INT00055,1,customer,Is there a water outage affecting my area?,2026-07-12 19:00:35
+TR0000218,INT00055,2,agent,I will check the available operational information for your service address.,2026-07-12 19:01:10
+TR0000219,INT00055,3,customer,I noticed low pressure this morning.,2026-07-12 19:01:45
+TR0000220,INT00055,4,agent,I will review your account context and any available outage information.,2026-07-12 19:02:20
+TR0000221,INT00056,1,customer,I am calling about a billing explanation on my account.,2026-07-13 00:00:35
+TR0000222,INT00056,2,agent,I can review the relevant account information and history.,2026-07-13 00:01:10
+TR0000223,INT00056,3,customer,Can you tell me what you find?,2026-07-13 00:01:45
+TR0000224,INT00056,4,agent,"Yes, I will check the available information and next steps.",2026-07-13 00:02:20
+TR0000225,INT00057,1,customer,I received information about a lead service line. What is the status for my property?,2026-07-13 05:00:35
+TR0000226,INT00057,2,agent,I will check the Lead Reduction Program information for your premise.,2026-07-13 05:01:10
+TR0000227,INT00057,3,customer,Is a replacement already scheduled?,2026-07-13 05:01:45
+TR0000228,INT00057,4,agent,Let me review the current program status and dates.,2026-07-13 05:02:20
+TR0000229,INT00058,1,customer,I am calling about a general service question on my account.,2026-07-13 10:00:35
+TR0000230,INT00058,2,agent,I can review the relevant account information and history.,2026-07-13 10:01:10
+TR0000231,INT00058,3,customer,Can you tell me what you find?,2026-07-13 10:01:45
+TR0000232,INT00058,4,agent,"Yes, I will check the available information and next steps.",2026-07-13 10:02:20
+TR0000233,INT00059,1,customer,I am calling about a general inquiry on my account.,2026-07-13 15:00:35
+TR0000234,INT00059,2,agent,I can review the relevant account information and history.,2026-07-13 15:01:10
+TR0000235,INT00059,3,customer,Can you tell me what you find?,2026-07-13 15:01:45
+TR0000236,INT00059,4,agent,"Yes, I will check the available information and next steps.",2026-07-13 15:02:20
+TR0000237,INT00060,1,customer,My water bill is much higher than normal this month.,2026-07-13 20:00:35
+TR0000238,INT00060,2,agent,I can review your recent billing and water consumption.,2026-07-13 20:01:10
+TR0000239,INT00060,3,customer,I have not made any major changes at home.,2026-07-13 20:01:45
+TR0000240,INT00060,4,agent,I will check for unusual usage and any relevant account history.,2026-07-13 20:02:20
+TR0000241,INT00061,1,customer,I made a payment recently and want to make sure it posted.,2026-07-14 01:00:35
+TR0000242,INT00061,2,agent,I will check your payment history and current balance.,2026-07-14 01:01:10
+TR0000243,INT00061,3,customer,It was made online yesterday.,2026-07-14 01:01:45
+TR0000244,INT00061,4,agent,I can confirm the latest posted payment for you.,2026-07-14 01:02:20
+TR0000245,INT00062,1,customer,I am calling about a possible leak on my account.,2026-07-14 06:00:35
+TR0000246,INT00062,2,agent,I can review the relevant account information and history.,2026-07-14 06:01:10
+TR0000247,INT00062,3,customer,Can you tell me what you find?,2026-07-14 06:01:45
+TR0000248,INT00062,4,agent,"Yes, I will check the available information and next steps.",2026-07-14 06:02:20
+TR0000249,INT00063,1,customer,I need to transfer water service because a new tenant is moving in.,2026-07-14 11:00:35
+TR0000250,INT00063,2,agent,"I will review the account, premise, and service history.",2026-07-14 11:01:10
+TR0000251,INT00063,3,customer,The change should be effective this month.,2026-07-14 11:01:45
+TR0000252,INT00063,4,agent,I will verify the current relationship and transfer details.,2026-07-14 11:02:20
+TR0000253,INT00064,1,customer,I have no water at my house right now.,2026-07-14 16:00:35
+TR0000254,INT00064,2,agent,I will check your account and see whether there is already field work in progress.,2026-07-14 16:01:10
+TR0000255,INT00064,3,customer,Do you know when someone will arrive?,2026-07-14 16:01:45
+TR0000256,INT00064,4,agent,Let me review the current field activity status.,2026-07-14 16:02:20
+TR0000257,INT00065,1,customer,I am calling about a field activity status on my account.,2026-07-14 21:00:35
+TR0000258,INT00065,2,agent,I can review the relevant account information and history.,2026-07-14 21:01:10
+TR0000259,INT00065,3,customer,Can you tell me what you find?,2026-07-14 21:01:45
+TR0000260,INT00065,4,agent,"Yes, I will check the available information and next steps.",2026-07-14 21:02:20
+TR0000261,INT00066,1,customer,I have a question about my meter and the latest reading.,2026-07-15 02:00:35
+TR0000262,INT00066,2,agent,I will review your meter information and consumption history.,2026-07-15 02:01:10
+TR0000263,INT00066,3,customer,The usage looks unusual.,2026-07-15 02:01:45
+TR0000264,INT00066,4,agent,I will check the meter status and recent reads.,2026-07-15 02:02:20
+TR0000265,INT00067,1,customer,Is there a water outage affecting my area?,2026-07-15 07:00:35
+TR0000266,INT00067,2,agent,I will check the available operational information for your service address.,2026-07-15 07:01:10
+TR0000267,INT00067,3,customer,I noticed low pressure this morning.,2026-07-15 07:01:45
+TR0000268,INT00067,4,agent,I will review your account context and any available outage information.,2026-07-15 07:02:20
+TR0000269,INT00068,1,customer,I am calling about a billing explanation on my account.,2026-07-15 12:00:35
+TR0000270,INT00068,2,agent,I can review the relevant account information and history.,2026-07-15 12:01:10
+TR0000271,INT00068,3,customer,Can you tell me what you find?,2026-07-15 12:01:45
+TR0000272,INT00068,4,agent,"Yes, I will check the available information and next steps.",2026-07-15 12:02:20
+TR0000273,INT00069,1,customer,I received information about a lead service line. What is the status for my property?,2026-07-15 17:00:35
+TR0000274,INT00069,2,agent,I will check the Lead Reduction Program information for your premise.,2026-07-15 17:01:10
+TR0000275,INT00069,3,customer,Is a replacement already scheduled?,2026-07-15 17:01:45
+TR0000276,INT00069,4,agent,Let me review the current program status and dates.,2026-07-15 17:02:20
+TR0000277,INT00070,1,customer,I am calling about a general service question on my account.,2026-07-15 22:00:35
+TR0000278,INT00070,2,agent,I can review the relevant account information and history.,2026-07-15 22:01:10
+TR0000279,INT00070,3,customer,Can you tell me what you find?,2026-07-15 22:01:45
+TR0000280,INT00070,4,agent,"Yes, I will check the available information and next steps.",2026-07-15 22:02:20
+TR0000281,INT00071,1,customer,I am calling about a general inquiry on my account.,2026-07-16 03:00:35
+TR0000282,INT00071,2,agent,I can review the relevant account information and history.,2026-07-16 03:01:10
+TR0000283,INT00071,3,customer,Can you tell me what you find?,2026-07-16 03:01:45
+TR0000284,INT00071,4,agent,"Yes, I will check the available information and next steps.",2026-07-16 03:02:20
+TR0000285,INT00072,1,customer,My water bill is much higher than normal this month.,2026-07-16 08:00:35
+TR0000286,INT00072,2,agent,I can review your recent billing and water consumption.,2026-07-16 08:01:10
+TR0000287,INT00072,3,customer,I have not made any major changes at home.,2026-07-16 08:01:45
+TR0000288,INT00072,4,agent,I will check for unusual usage and any relevant account history.,2026-07-16 08:02:20
+TR0000289,INT00073,1,customer,I made a payment recently and want to make sure it posted.,2026-07-16 13:00:35
+TR0000290,INT00073,2,agent,I will check your payment history and current balance.,2026-07-16 13:01:10
+TR0000291,INT00073,3,customer,It was made online yesterday.,2026-07-16 13:01:45
+TR0000292,INT00073,4,agent,I can confirm the latest posted payment for you.,2026-07-16 13:02:20
+TR0000293,INT00074,1,customer,I am calling about a possible leak on my account.,2026-07-16 18:00:35
+TR0000294,INT00074,2,agent,I can review the relevant account information and history.,2026-07-16 18:01:10
+TR0000295,INT00074,3,customer,Can you tell me what you find?,2026-07-16 18:01:45
+TR0000296,INT00074,4,agent,"Yes, I will check the available information and next steps.",2026-07-16 18:02:20
+TR0000297,INT00075,1,customer,I need to transfer water service because a new tenant is moving in.,2026-07-16 23:00:35
+TR0000298,INT00075,2,agent,"I will review the account, premise, and service history.",2026-07-16 23:01:10
+TR0000299,INT00075,3,customer,The change should be effective this month.,2026-07-16 23:01:45
+TR0000300,INT00075,4,agent,I will verify the current relationship and transfer details.,2026-07-16 23:02:20
+TR0000301,INT00076,1,customer,I have no water at my house right now.,2026-07-17 04:00:35
+TR0000302,INT00076,2,agent,I will check your account and see whether there is already field work in progress.,2026-07-17 04:01:10
+TR0000303,INT00076,3,customer,Do you know when someone will arrive?,2026-07-17 04:01:45
+TR0000304,INT00076,4,agent,Let me review the current field activity status.,2026-07-17 04:02:20
+TR0000305,INT00077,1,customer,I am calling about a field activity status on my account.,2026-07-17 09:00:35
+TR0000306,INT00077,2,agent,I can review the relevant account information and history.,2026-07-17 09:01:10
+TR0000307,INT00077,3,customer,Can you tell me what you find?,2026-07-17 09:01:45
+TR0000308,INT00077,4,agent,"Yes, I will check the available information and next steps.",2026-07-17 09:02:20
+TR0000309,INT00078,1,customer,I have a question about my meter and the latest reading.,2026-07-17 14:00:35
+TR0000310,INT00078,2,agent,I will review your meter information and consumption history.,2026-07-17 14:01:10
+TR0000311,INT00078,3,customer,The usage looks unusual.,2026-07-17 14:01:45
+TR0000312,INT00078,4,agent,I will check the meter status and recent reads.,2026-07-17 14:02:20
+TR0000313,INT00079,1,customer,Is there a water outage affecting my area?,2026-07-17 19:00:35
+TR0000314,INT00079,2,agent,I will check the available operational information for your service address.,2026-07-17 19:01:10
+TR0000315,INT00079,3,customer,I noticed low pressure this morning.,2026-07-17 19:01:45
+TR0000316,INT00079,4,agent,I will review your account context and any available outage information.,2026-07-17 19:02:20
+TR0000317,INT00080,1,customer,I am calling about a billing explanation on my account.,2026-07-18 00:00:35
+TR0000318,INT00080,2,agent,I can review the relevant account information and history.,2026-07-18 00:01:10
+TR0000319,INT00080,3,customer,Can you tell me what you find?,2026-07-18 00:01:45
+TR0000320,INT00080,4,agent,"Yes, I will check the available information and next steps.",2026-07-18 00:02:20
+TR0000321,INT00081,1,customer,I received information about a lead service line. What is the status for my property?,2026-07-18 05:00:35
+TR0000322,INT00081,2,agent,I will check the Lead Reduction Program information for your premise.,2026-07-18 05:01:10
+TR0000323,INT00081,3,customer,Is a replacement already scheduled?,2026-07-18 05:01:45
+TR0000324,INT00081,4,agent,Let me review the current program status and dates.,2026-07-18 05:02:20
+TR0000325,INT00082,1,customer,I am calling about a general service question on my account.,2026-07-18 10:00:35
+TR0000326,INT00082,2,agent,I can review the relevant account information and history.,2026-07-18 10:01:10
+TR0000327,INT00082,3,customer,Can you tell me what you find?,2026-07-18 10:01:45
+TR0000328,INT00082,4,agent,"Yes, I will check the available information and next steps.",2026-07-18 10:02:20
+TR0000329,INT00083,1,customer,I am calling about a general inquiry on my account.,2026-07-18 15:00:35
+TR0000330,INT00083,2,agent,I can review the relevant account information and history.,2026-07-18 15:01:10
+TR0000331,INT00083,3,customer,Can you tell me what you find?,2026-07-18 15:01:45
+TR0000332,INT00083,4,agent,"Yes, I will check the available information and next steps.",2026-07-18 15:02:20
+TR0000333,INT00084,1,customer,My water bill is much higher than normal this month.,2026-07-18 20:00:35
+TR0000334,INT00084,2,agent,I can review your recent billing and water consumption.,2026-07-18 20:01:10
+TR0000335,INT00084,3,customer,I have not made any major changes at home.,2026-07-18 20:01:45
+TR0000336,INT00084,4,agent,I will check for unusual usage and any relevant account history.,2026-07-18 20:02:20
+TR0000337,INT00085,1,customer,I made a payment recently and want to make sure it posted.,2026-07-19 01:00:35
+TR0000338,INT00085,2,agent,I will check your payment history and current balance.,2026-07-19 01:01:10
+TR0000339,INT00085,3,customer,It was made online yesterday.,2026-07-19 01:01:45
+TR0000340,INT00085,4,agent,I can confirm the latest posted payment for you.,2026-07-19 01:02:20
+TR0000341,INT00086,1,customer,I am calling about a possible leak on my account.,2026-07-19 06:00:35
+TR0000342,INT00086,2,agent,I can review the relevant account information and history.,2026-07-19 06:01:10
+TR0000343,INT00086,3,customer,Can you tell me what you find?,2026-07-19 06:01:45
+TR0000344,INT00086,4,agent,"Yes, I will check the available information and next steps.",2026-07-19 06:02:20
+TR0000345,INT00087,1,customer,I need to transfer water service because a new tenant is moving in.,2026-07-19 11:00:35
+TR0000346,INT00087,2,agent,"I will review the account, premise, and service history.",2026-07-19 11:01:10
+TR0000347,INT00087,3,customer,The change should be effective this month.,2026-07-19 11:01:45
+TR0000348,INT00087,4,agent,I will verify the current relationship and transfer details.,2026-07-19 11:02:20
+TR0000349,INT00088,1,customer,I have no water at my house right now.,2026-07-19 16:00:35
+TR0000350,INT00088,2,agent,I will check your account and see whether there is already field work in progress.,2026-07-19 16:01:10
+TR0000351,INT00088,3,customer,Do you know when someone will arrive?,2026-07-19 16:01:45
+TR0000352,INT00088,4,agent,Let me review the current field activity status.,2026-07-19 16:02:20
+TR0000353,INT00089,1,customer,I am calling about a field activity status on my account.,2026-07-19 21:00:35
+TR0000354,INT00089,2,agent,I can review the relevant account information and history.,2026-07-19 21:01:10
+TR0000355,INT00089,3,customer,Can you tell me what you find?,2026-07-19 21:01:45
+TR0000356,INT00089,4,agent,"Yes, I will check the available information and next steps.",2026-07-19 21:02:20
+TR0000357,INT00090,1,customer,I have a question about my meter and the latest reading.,2026-07-20 02:00:35
+TR0000358,INT00090,2,agent,I will review your meter information and consumption history.,2026-07-20 02:01:10
+TR0000359,INT00090,3,customer,The usage looks unusual.,2026-07-20 02:01:45
+TR0000360,INT00090,4,agent,I will check the meter status and recent reads.,2026-07-20 02:02:20
+TR0000361,INT00091,1,customer,Is there a water outage affecting my area?,2026-07-20 07:00:35
+TR0000362,INT00091,2,agent,I will check the available operational information for your service address.,2026-07-20 07:01:10
+TR0000363,INT00091,3,customer,I noticed low pressure this morning.,2026-07-20 07:01:45
+TR0000364,INT00091,4,agent,I will review your account context and any available outage information.,2026-07-20 07:02:20
+TR0000365,INT00092,1,customer,I am calling about a billing explanation on my account.,2026-07-20 12:00:35
+TR0000366,INT00092,2,agent,I can review the relevant account information and history.,2026-07-20 12:01:10
+TR0000367,INT00092,3,customer,Can you tell me what you find?,2026-07-20 12:01:45
+TR0000368,INT00092,4,agent,"Yes, I will check the available information and next steps.",2026-07-20 12:02:20
+TR0000369,INT00093,1,customer,I received information about a lead service line. What is the status for my property?,2026-07-20 17:00:35
+TR0000370,INT00093,2,agent,I will check the Lead Reduction Program information for your premise.,2026-07-20 17:01:10
+TR0000371,INT00093,3,customer,Is a replacement already scheduled?,2026-07-20 17:01:45
+TR0000372,INT00093,4,agent,Let me review the current program status and dates.,2026-07-20 17:02:20
+TR0000373,INT00094,1,customer,I am calling about a general service question on my account.,2026-07-20 22:00:35
+TR0000374,INT00094,2,agent,I can review the relevant account information and history.,2026-07-20 22:01:10
+TR0000375,INT00094,3,customer,Can you tell me what you find?,2026-07-20 22:01:45
+TR0000376,INT00094,4,agent,"Yes, I will check the available information and next steps.",2026-07-20 22:02:20
+TR0000377,INT00095,1,customer,I am calling about a general inquiry on my account.,2026-07-21 03:00:35
+TR0000378,INT00095,2,agent,I can review the relevant account information and history.,2026-07-21 03:01:10
+TR0000379,INT00095,3,customer,Can you tell me what you find?,2026-07-21 03:01:45
+TR0000380,INT00095,4,agent,"Yes, I will check the available information and next steps.",2026-07-21 03:02:20
+TR0000381,INT00096,1,customer,My water bill is much higher than normal this month.,2026-07-21 08:00:35
+TR0000382,INT00096,2,agent,I can review your recent billing and water consumption.,2026-07-21 08:01:10
+TR0000383,INT00096,3,customer,I have not made any major changes at home.,2026-07-21 08:01:45
+TR0000384,INT00096,4,agent,I will check for unusual usage and any relevant account history.,2026-07-21 08:02:20
+TR0000385,INT00097,1,customer,I made a payment recently and want to make sure it posted.,2026-07-21 13:00:35
+TR0000386,INT00097,2,agent,I will check your payment history and current balance.,2026-07-21 13:01:10
+TR0000387,INT00097,3,customer,It was made online yesterday.,2026-07-21 13:01:45
+TR0000388,INT00097,4,agent,I can confirm the latest posted payment for you.,2026-07-21 13:02:20
+TR0000389,INT00098,1,customer,I am calling about a possible leak on my account.,2026-07-21 18:00:35
+TR0000390,INT00098,2,agent,I can review the relevant account information and history.,2026-07-21 18:01:10
+TR0000391,INT00098,3,customer,Can you tell me what you find?,2026-07-21 18:01:45
+TR0000392,INT00098,4,agent,"Yes, I will check the available information and next steps.",2026-07-21 18:02:20
+TR0000393,INT00099,1,customer,I need to transfer water service because a new tenant is moving in.,2026-07-21 23:00:35
+TR0000394,INT00099,2,agent,"I will review the account, premise, and service history.",2026-07-21 23:01:10
+TR0000395,INT00099,3,customer,The change should be effective this month.,2026-07-21 23:01:45
+TR0000396,INT00099,4,agent,I will verify the current relationship and transfer details.,2026-07-21 23:02:20
+TR0000397,INT00100,1,customer,I have no water at my house right now.,2026-07-22 04:00:35
+TR0000398,INT00100,2,agent,I will check your account and see whether there is already field work in progress.,2026-07-22 04:01:10
+TR0000399,INT00100,3,customer,Do you know when someone will arrive?,2026-07-22 04:01:45
+TR0000400,INT00100,4,agent,Let me review the current field activity status.,2026-07-22 04:02:20
+TR0000401,INT00101,1,customer,I am calling about a field activity status on my account.,2026-07-22 09:00:35
+TR0000402,INT00101,2,agent,I can review the relevant account information and history.,2026-07-22 09:01:10
+TR0000403,INT00101,3,customer,Can you tell me what you find?,2026-07-22 09:01:45
+TR0000404,INT00101,4,agent,"Yes, I will check the available information and next steps.",2026-07-22 09:02:20
+TR0000405,INT00102,1,customer,I have a question about my meter and the latest reading.,2026-07-22 14:00:35
+TR0000406,INT00102,2,agent,I will review your meter information and consumption history.,2026-07-22 14:01:10
+TR0000407,INT00102,3,customer,The usage looks unusual.,2026-07-22 14:01:45
+TR0000408,INT00102,4,agent,I will check the meter status and recent reads.,2026-07-22 14:02:20
+TR0000409,INT00103,1,customer,Is there a water outage affecting my area?,2026-07-22 19:00:35
+TR0000410,INT00103,2,agent,I will check the available operational information for your service address.,2026-07-22 19:01:10
+TR0000411,INT00103,3,customer,I noticed low pressure this morning.,2026-07-22 19:01:45
+TR0000412,INT00103,4,agent,I will review your account context and any available outage information.,2026-07-22 19:02:20
+TR0000413,INT00104,1,customer,I am calling about a billing explanation on my account.,2026-07-23 00:00:35
+TR0000414,INT00104,2,agent,I can review the relevant account information and history.,2026-07-23 00:01:10
+TR0000415,INT00104,3,customer,Can you tell me what you find?,2026-07-23 00:01:45
+TR0000416,INT00104,4,agent,"Yes, I will check the available information and next steps.",2026-07-23 00:02:20
+TR0000417,INT00105,1,customer,I received information about a lead service line. What is the status for my property?,2026-07-23 05:00:35
+TR0000418,INT00105,2,agent,I will check the Lead Reduction Program information for your premise.,2026-07-23 05:01:10
+TR0000419,INT00105,3,customer,Is a replacement already scheduled?,2026-07-23 05:01:45
+TR0000420,INT00105,4,agent,Let me review the current program status and dates.,2026-07-23 05:02:20
+TR0000421,INT00106,1,customer,I am calling about a general service question on my account.,2026-07-23 10:00:35
+TR0000422,INT00106,2,agent,I can review the relevant account information and history.,2026-07-23 10:01:10
+TR0000423,INT00106,3,customer,Can you tell me what you find?,2026-07-23 10:01:45
+TR0000424,INT00106,4,agent,"Yes, I will check the available information and next steps.",2026-07-23 10:02:20
+TR0000425,INT00107,1,customer,I am calling about a general inquiry on my account.,2026-07-23 15:00:35
+TR0000426,INT00107,2,agent,I can review the relevant account information and history.,2026-07-23 15:01:10
+TR0000427,INT00107,3,customer,Can you tell me what you find?,2026-07-23 15:01:45
+TR0000428,INT00107,4,agent,"Yes, I will check the available information and next steps.",2026-07-23 15:02:20
+TR0000429,INT00108,1,customer,My water bill is much higher than normal this month.,2026-07-23 20:00:35
+TR0000430,INT00108,2,agent,I can review your recent billing and water consumption.,2026-07-23 20:01:10
+TR0000431,INT00108,3,customer,I have not made any major changes at home.,2026-07-23 20:01:45
+TR0000432,INT00108,4,agent,I will check for unusual usage and any relevant account history.,2026-07-23 20:02:20
+TR0000433,INT00109,1,customer,I made a payment recently and want to make sure it posted.,2026-07-24 01:00:35
+TR0000434,INT00109,2,agent,I will check your payment history and current balance.,2026-07-24 01:01:10
+TR0000435,INT00109,3,customer,It was made online yesterday.,2026-07-24 01:01:45
+TR0000436,INT00109,4,agent,I can confirm the latest posted payment for you.,2026-07-24 01:02:20
+TR0000437,INT00110,1,customer,I am calling about a possible leak on my account.,2026-07-24 06:00:35
+TR0000438,INT00110,2,agent,I can review the relevant account information and history.,2026-07-24 06:01:10
+TR0000439,INT00110,3,customer,Can you tell me what you find?,2026-07-24 06:01:45
+TR0000440,INT00110,4,agent,"Yes, I will check the available information and next steps.",2026-07-24 06:02:20
+TR0000441,INT00111,1,customer,I need to transfer water service because a new tenant is moving in.,2026-07-24 11:00:35
+TR0000442,INT00111,2,agent,"I will review the account, premise, and service history.",2026-07-24 11:01:10
+TR0000443,INT00111,3,customer,The change should be effective this month.,2026-07-24 11:01:45
+TR0000444,INT00111,4,agent,I will verify the current relationship and transfer details.,2026-07-24 11:02:20
+TR0000445,INT00112,1,customer,I have no water at my house right now.,2026-07-24 16:00:35
+TR0000446,INT00112,2,agent,I will check your account and see whether there is already field work in progress.,2026-07-24 16:01:10
+TR0000447,INT00112,3,customer,Do you know when someone will arrive?,2026-07-24 16:01:45
+TR0000448,INT00112,4,agent,Let me review the current field activity status.,2026-07-24 16:02:20
+TR0000449,INT00113,1,customer,I am calling about a field activity status on my account.,2026-07-24 21:00:35
+TR0000450,INT00113,2,agent,I can review the relevant account information and history.,2026-07-24 21:01:10
+TR0000451,INT00113,3,customer,Can you tell me what you find?,2026-07-24 21:01:45
+TR0000452,INT00113,4,agent,"Yes, I will check the available information and next steps.",2026-07-24 21:02:20
+TR0000453,INT00114,1,customer,I have a question about my meter and the latest reading.,2026-07-25 02:00:35
+TR0000454,INT00114,2,agent,I will review your meter information and consumption history.,2026-07-25 02:01:10
+TR0000455,INT00114,3,customer,The usage looks unusual.,2026-07-25 02:01:45
+TR0000456,INT00114,4,agent,I will check the meter status and recent reads.,2026-07-25 02:02:20
+TR0000457,INT00115,1,customer,Is there a water outage affecting my area?,2026-07-25 07:00:35
+TR0000458,INT00115,2,agent,I will check the available operational information for your service address.,2026-07-25 07:01:10
+TR0000459,INT00115,3,customer,I noticed low pressure this morning.,2026-07-25 07:01:45
+TR0000460,INT00115,4,agent,I will review your account context and any available outage information.,2026-07-25 07:02:20
+TR0000461,INT00116,1,customer,I am calling about a billing explanation on my account.,2026-07-25 12:00:35
+TR0000462,INT00116,2,agent,I can review the relevant account information and history.,2026-07-25 12:01:10
+TR0000463,INT00116,3,customer,Can you tell me what you find?,2026-07-25 12:01:45
+TR0000464,INT00116,4,agent,"Yes, I will check the available information and next steps.",2026-07-25 12:02:20
+TR0000465,INT00117,1,customer,I received information about a lead service line. What is the status for my property?,2026-07-25 17:00:35
+TR0000466,INT00117,2,agent,I will check the Lead Reduction Program information for your premise.,2026-07-25 17:01:10
+TR0000467,INT00117,3,customer,Is a replacement already scheduled?,2026-07-25 17:01:45
+TR0000468,INT00117,4,agent,Let me review the current program status and dates.,2026-07-25 17:02:20
+TR0000469,INT00118,1,customer,I am calling about a general service question on my account.,2026-07-25 22:00:35
+TR0000470,INT00118,2,agent,I can review the relevant account information and history.,2026-07-25 22:01:10
+TR0000471,INT00118,3,customer,Can you tell me what you find?,2026-07-25 22:01:45
+TR0000472,INT00118,4,agent,"Yes, I will check the available information and next steps.",2026-07-25 22:02:20
+TR0000473,INT00119,1,customer,I am calling about a general inquiry on my account.,2026-07-26 03:00:35
+TR0000474,INT00119,2,agent,I can review the relevant account information and history.,2026-07-26 03:01:10
+TR0000475,INT00119,3,customer,Can you tell me what you find?,2026-07-26 03:01:45
+TR0000476,INT00119,4,agent,"Yes, I will check the available information and next steps.",2026-07-26 03:02:20
+TR0000477,INT00120,1,customer,My water bill is much higher than normal this month.,2026-07-26 08:00:35
+TR0000478,INT00120,2,agent,I can review your recent billing and water consumption.,2026-07-26 08:01:10
+TR0000479,INT00120,3,customer,I have not made any major changes at home.,2026-07-26 08:01:45
+TR0000480,INT00120,4,agent,I will check for unusual usage and any relevant account history.,2026-07-26 08:02:20
+TR0000481,INT00121,1,customer,I made a payment recently and want to make sure it posted.,2026-07-26 13:00:35
+TR0000482,INT00121,2,agent,I will check your payment history and current balance.,2026-07-26 13:01:10
+TR0000483,INT00121,3,customer,It was made online yesterday.,2026-07-26 13:01:45
+TR0000484,INT00121,4,agent,I can confirm the latest posted payment for you.,2026-07-26 13:02:20
+TR0000485,INT00122,1,customer,I am calling about a possible leak on my account.,2026-07-26 18:00:35
+TR0000486,INT00122,2,agent,I can review the relevant account information and history.,2026-07-26 18:01:10
+TR0000487,INT00122,3,customer,Can you tell me what you find?,2026-07-26 18:01:45
+TR0000488,INT00122,4,agent,"Yes, I will check the available information and next steps.",2026-07-26 18:02:20
+TR0000489,INT00123,1,customer,I need to transfer water service because a new tenant is moving in.,2026-07-26 23:00:35
+TR0000490,INT00123,2,agent,"I will review the account, premise, and service history.",2026-07-26 23:01:10
+TR0000491,INT00123,3,customer,The change should be effective this month.,2026-07-26 23:01:45
+TR0000492,INT00123,4,agent,I will verify the current relationship and transfer details.,2026-07-26 23:02:20
+TR0000493,INT00124,1,customer,I have no water at my house right now.,2026-07-27 04:00:35
+TR0000494,INT00124,2,agent,I will check your account and see whether there is already field work in progress.,2026-07-27 04:01:10
+TR0000495,INT00124,3,customer,Do you know when someone will arrive?,2026-07-27 04:01:45
+TR0000496,INT00124,4,agent,Let me review the current field activity status.,2026-07-27 04:02:20
+TR0000497,INT00125,1,customer,I am calling about a field activity status on my account.,2026-07-27 09:00:35
+TR0000498,INT00125,2,agent,I can review the relevant account information and history.,2026-07-27 09:01:10
+TR0000499,INT00125,3,customer,Can you tell me what you find?,2026-07-27 09:01:45
+TR0000500,INT00125,4,agent,"Yes, I will check the available information and next steps.",2026-07-27 09:02:20
+TR0000501,INT00126,1,customer,I have a question about my meter and the latest reading.,2026-07-27 14:00:35
+TR0000502,INT00126,2,agent,I will review your meter information and consumption history.,2026-07-27 14:01:10
+TR0000503,INT00126,3,customer,The usage looks unusual.,2026-07-27 14:01:45
+TR0000504,INT00126,4,agent,I will check the meter status and recent reads.,2026-07-27 14:02:20
+TR0000505,INT00127,1,customer,Is there a water outage affecting my area?,2026-07-27 19:00:35
+TR0000506,INT00127,2,agent,I will check the available operational information for your service address.,2026-07-27 19:01:10
+TR0000507,INT00127,3,customer,I noticed low pressure this morning.,2026-07-27 19:01:45
+TR0000508,INT00127,4,agent,I will review your account context and any available outage information.,2026-07-27 19:02:20
+TR0000509,INT00128,1,customer,I am calling about a billing explanation on my account.,2026-07-28 00:00:35
+TR0000510,INT00128,2,agent,I can review the relevant account information and history.,2026-07-28 00:01:10
+TR0000511,INT00128,3,customer,Can you tell me what you find?,2026-07-28 00:01:45
+TR0000512,INT00128,4,agent,"Yes, I will check the available information and next steps.",2026-07-28 00:02:20
+TR0000513,INT00129,1,customer,I received information about a lead service line. What is the status for my property?,2026-07-28 05:00:35
+TR0000514,INT00129,2,agent,I will check the Lead Reduction Program information for your premise.,2026-07-28 05:01:10
+TR0000515,INT00129,3,customer,Is a replacement already scheduled?,2026-07-28 05:01:45
+TR0000516,INT00129,4,agent,Let me review the current program status and dates.,2026-07-28 05:02:20
+TR0000517,INT00130,1,customer,I am calling about a general service question on my account.,2026-07-28 10:00:35
+TR0000518,INT00130,2,agent,I can review the relevant account information and history.,2026-07-28 10:01:10
+TR0000519,INT00130,3,customer,Can you tell me what you find?,2026-07-28 10:01:45
+TR0000520,INT00130,4,agent,"Yes, I will check the available information and next steps.",2026-07-28 10:02:20
+TR0000521,INT00131,1,customer,I am calling about a general inquiry on my account.,2026-07-28 15:00:35
+TR0000522,INT00131,2,agent,I can review the relevant account information and history.,2026-07-28 15:01:10
+TR0000523,INT00131,3,customer,Can you tell me what you find?,2026-07-28 15:01:45
+TR0000524,INT00131,4,agent,"Yes, I will check the available information and next steps.",2026-07-28 15:02:20
+TR0000525,INT00132,1,customer,My water bill is much higher than normal this month.,2026-07-28 20:00:35
+TR0000526,INT00132,2,agent,I can review your recent billing and water consumption.,2026-07-28 20:01:10
+TR0000527,INT00132,3,customer,I have not made any major changes at home.,2026-07-28 20:01:45
+TR0000528,INT00132,4,agent,I will check for unusual usage and any relevant account history.,2026-07-28 20:02:20
+TR0000529,INT00133,1,customer,I made a payment recently and want to make sure it posted.,2026-07-29 01:00:35
+TR0000530,INT00133,2,agent,I will check your payment history and current balance.,2026-07-29 01:01:10
+TR0000531,INT00133,3,customer,It was made online yesterday.,2026-07-29 01:01:45
+TR0000532,INT00133,4,agent,I can confirm the latest posted payment for you.,2026-07-29 01:02:20
+TR0000533,INT00134,1,customer,I am calling about a possible leak on my account.,2026-07-29 06:00:35
+TR0000534,INT00134,2,agent,I can review the relevant account information and history.,2026-07-29 06:01:10
+TR0000535,INT00134,3,customer,Can you tell me what you find?,2026-07-29 06:01:45
+TR0000536,INT00134,4,agent,"Yes, I will check the available information and next steps.",2026-07-29 06:02:20
+TR0000537,INT00135,1,customer,I need to transfer water service because a new tenant is moving in.,2026-07-29 11:00:35
+TR0000538,INT00135,2,agent,"I will review the account, premise, and service history.",2026-07-29 11:01:10
+TR0000539,INT00135,3,customer,The change should be effective this month.,2026-07-29 11:01:45
+TR0000540,INT00135,4,agent,I will verify the current relationship and transfer details.,2026-07-29 11:02:20
+TR0000541,INT00136,1,customer,I have no water at my house right now.,2026-07-29 16:00:35
+TR0000542,INT00136,2,agent,I will check your account and see whether there is already field work in progress.,2026-07-29 16:01:10
+TR0000543,INT00136,3,customer,Do you know when someone will arrive?,2026-07-29 16:01:45
+TR0000544,INT00136,4,agent,Let me review the current field activity status.,2026-07-29 16:02:20
+TR0000545,INT00137,1,customer,I am calling about a field activity status on my account.,2026-07-29 21:00:35
+TR0000546,INT00137,2,agent,I can review the relevant account information and history.,2026-07-29 21:01:10
+TR0000547,INT00137,3,customer,Can you tell me what you find?,2026-07-29 21:01:45
+TR0000548,INT00137,4,agent,"Yes, I will check the available information and next steps.",2026-07-29 21:02:20
+TR0000549,INT00138,1,customer,I have a question about my meter and the latest reading.,2026-07-30 02:00:35
+TR0000550,INT00138,2,agent,I will review your meter information and consumption history.,2026-07-30 02:01:10
+TR0000551,INT00138,3,customer,The usage looks unusual.,2026-07-30 02:01:45
+TR0000552,INT00138,4,agent,I will check the meter status and recent reads.,2026-07-30 02:02:20
+TR0000553,INT00139,1,customer,Is there a water outage affecting my area?,2026-07-30 07:00:35
+TR0000554,INT00139,2,agent,I will check the available operational information for your service address.,2026-07-30 07:01:10
+TR0000555,INT00139,3,customer,I noticed low pressure this morning.,2026-07-30 07:01:45
+TR0000556,INT00139,4,agent,I will review your account context and any available outage information.,2026-07-30 07:02:20
+TR0000557,INT00140,1,customer,I am calling about a billing explanation on my account.,2026-07-30 12:00:35
+TR0000558,INT00140,2,agent,I can review the relevant account information and history.,2026-07-30 12:01:10
+TR0000559,INT00140,3,customer,Can you tell me what you find?,2026-07-30 12:01:45
+TR0000560,INT00140,4,agent,"Yes, I will check the available information and next steps.",2026-07-30 12:02:20
+TR0000561,INT00141,1,customer,I received information about a lead service line. What is the status for my property?,2026-07-30 17:00:35
+TR0000562,INT00141,2,agent,I will check the Lead Reduction Program information for your premise.,2026-07-30 17:01:10
+TR0000563,INT00141,3,customer,Is a replacement already scheduled?,2026-07-30 17:01:45
+TR0000564,INT00141,4,agent,Let me review the current program status and dates.,2026-07-30 17:02:20
+TR0000565,INT00142,1,customer,I am calling about a general service question on my account.,2026-07-30 22:00:35
+TR0000566,INT00142,2,agent,I can review the relevant account information and history.,2026-07-30 22:01:10
+TR0000567,INT00142,3,customer,Can you tell me what you find?,2026-07-30 22:01:45
+TR0000568,INT00142,4,agent,"Yes, I will check the available information and next steps.",2026-07-30 22:02:20
+TR0000569,INT00143,1,customer,I am calling about a general inquiry on my account.,2026-07-31 03:00:35
+TR0000570,INT00143,2,agent,I can review the relevant account information and history.,2026-07-31 03:01:10
+TR0000571,INT00143,3,customer,Can you tell me what you find?,2026-07-31 03:01:45
+TR0000572,INT00143,4,agent,"Yes, I will check the available information and next steps.",2026-07-31 03:02:20
+TR0000573,INT00144,1,customer,My water bill is much higher than normal this month.,2026-07-31 08:00:35
+TR0000574,INT00144,2,agent,I can review your recent billing and water consumption.,2026-07-31 08:01:10
+TR0000575,INT00144,3,customer,I have not made any major changes at home.,2026-07-31 08:01:45
+TR0000576,INT00144,4,agent,I will check for unusual usage and any relevant account history.,2026-07-31 08:02:20
+TR0000577,INT00145,1,customer,I made a payment recently and want to make sure it posted.,2026-07-31 13:00:35
+TR0000578,INT00145,2,agent,I will check your payment history and current balance.,2026-07-31 13:01:10
+TR0000579,INT00145,3,customer,It was made online yesterday.,2026-07-31 13:01:45
+TR0000580,INT00145,4,agent,I can confirm the latest posted payment for you.,2026-07-31 13:02:20
+TR0000581,INT00146,1,customer,I am calling about a possible leak on my account.,2026-07-31 18:00:35
+TR0000582,INT00146,2,agent,I can review the relevant account information and history.,2026-07-31 18:01:10
+TR0000583,INT00146,3,customer,Can you tell me what you find?,2026-07-31 18:01:45
+TR0000584,INT00146,4,agent,"Yes, I will check the available information and next steps.",2026-07-31 18:02:20
+TR0000585,INT00147,1,customer,I need to transfer water service because a new tenant is moving in.,2026-07-31 23:00:35
+TR0000586,INT00147,2,agent,"I will review the account, premise, and service history.",2026-07-31 23:01:10
+TR0000587,INT00147,3,customer,The change should be effective this month.,2026-07-31 23:01:45
+TR0000588,INT00147,4,agent,I will verify the current relationship and transfer details.,2026-07-31 23:02:20
+TR0000589,INT00148,1,customer,I have no water at my house right now.,2026-08-01 04:00:35
+TR0000590,INT00148,2,agent,I will check your account and see whether there is already field work in progress.,2026-08-01 04:01:10
+TR0000591,INT00148,3,customer,Do you know when someone will arrive?,2026-08-01 04:01:45
+TR0000592,INT00148,4,agent,Let me review the current field activity status.,2026-08-01 04:02:20
+TR0000593,INT00149,1,customer,I am calling about a field activity status on my account.,2026-08-01 09:00:35
+TR0000594,INT00149,2,agent,I can review the relevant account information and history.,2026-08-01 09:01:10
+TR0000595,INT00149,3,customer,Can you tell me what you find?,2026-08-01 09:01:45
+TR0000596,INT00149,4,agent,"Yes, I will check the available information and next steps.",2026-08-01 09:02:20
+TR0000597,INT00150,1,customer,I have a question about my meter and the latest reading.,2026-08-01 14:00:35
+TR0000598,INT00150,2,agent,I will review your meter information and consumption history.,2026-08-01 14:01:10
+TR0000599,INT00150,3,customer,The usage looks unusual.,2026-08-01 14:01:45
+TR0000600,INT00150,4,agent,I will check the meter status and recent reads.,2026-08-01 14:02:20
+TR0000601,INT00151,1,customer,Is there a water outage affecting my area?,2026-08-01 19:00:35
+TR0000602,INT00151,2,agent,I will check the available operational information for your service address.,2026-08-01 19:01:10
+TR0000603,INT00151,3,customer,I noticed low pressure this morning.,2026-08-01 19:01:45
+TR0000604,INT00151,4,agent,I will review your account context and any available outage information.,2026-08-01 19:02:20
+TR0000605,INT00152,1,customer,I am calling about a billing explanation on my account.,2026-08-02 00:00:35
+TR0000606,INT00152,2,agent,I can review the relevant account information and history.,2026-08-02 00:01:10
+TR0000607,INT00152,3,customer,Can you tell me what you find?,2026-08-02 00:01:45
+TR0000608,INT00152,4,agent,"Yes, I will check the available information and next steps.",2026-08-02 00:02:20
+TR0000609,INT00153,1,customer,I received information about a lead service line. What is the status for my property?,2026-08-02 05:00:35
+TR0000610,INT00153,2,agent,I will check the Lead Reduction Program information for your premise.,2026-08-02 05:01:10
+TR0000611,INT00153,3,customer,Is a replacement already scheduled?,2026-08-02 05:01:45
+TR0000612,INT00153,4,agent,Let me review the current program status and dates.,2026-08-02 05:02:20
+TR0000613,INT00154,1,customer,I am calling about a general service question on my account.,2026-08-02 10:00:35
+TR0000614,INT00154,2,agent,I can review the relevant account information and history.,2026-08-02 10:01:10
+TR0000615,INT00154,3,customer,Can you tell me what you find?,2026-08-02 10:01:45
+TR0000616,INT00154,4,agent,"Yes, I will check the available information and next steps.",2026-08-02 10:02:20
+TR0000617,INT00155,1,customer,I am calling about a general inquiry on my account.,2026-08-02 15:00:35
+TR0000618,INT00155,2,agent,I can review the relevant account information and history.,2026-08-02 15:01:10
+TR0000619,INT00155,3,customer,Can you tell me what you find?,2026-08-02 15:01:45
+TR0000620,INT00155,4,agent,"Yes, I will check the available information and next steps.",2026-08-02 15:02:20
+TR0000621,INT00156,1,customer,My water bill is much higher than normal this month.,2026-08-02 20:00:35
+TR0000622,INT00156,2,agent,I can review your recent billing and water consumption.,2026-08-02 20:01:10
+TR0000623,INT00156,3,customer,I have not made any major changes at home.,2026-08-02 20:01:45
+TR0000624,INT00156,4,agent,I will check for unusual usage and any relevant account history.,2026-08-02 20:02:20
+TR0000625,INT00157,1,customer,I made a payment recently and want to make sure it posted.,2026-08-03 01:00:35
+TR0000626,INT00157,2,agent,I will check your payment history and current balance.,2026-08-03 01:01:10
+TR0000627,INT00157,3,customer,It was made online yesterday.,2026-08-03 01:01:45
+TR0000628,INT00157,4,agent,I can confirm the latest posted payment for you.,2026-08-03 01:02:20
+TR0000629,INT00158,1,customer,I am calling about a possible leak on my account.,2026-08-03 06:00:35
+TR0000630,INT00158,2,agent,I can review the relevant account information and history.,2026-08-03 06:01:10
+TR0000631,INT00158,3,customer,Can you tell me what you find?,2026-08-03 06:01:45
+TR0000632,INT00158,4,agent,"Yes, I will check the available information and next steps.",2026-08-03 06:02:20
+TR0000633,INT00159,1,customer,I need to transfer water service because a new tenant is moving in.,2026-08-03 11:00:35
+TR0000634,INT00159,2,agent,"I will review the account, premise, and service history.",2026-08-03 11:01:10
+TR0000635,INT00159,3,customer,The change should be effective this month.,2026-08-03 11:01:45
+TR0000636,INT00159,4,agent,I will verify the current relationship and transfer details.,2026-08-03 11:02:20
+TR0000637,INT00160,1,customer,I have no water at my house right now.,2026-08-03 16:00:35
+TR0000638,INT00160,2,agent,I will check your account and see whether there is already field work in progress.,2026-08-03 16:01:10
+TR0000639,INT00160,3,customer,Do you know when someone will arrive?,2026-08-03 16:01:45
+TR0000640,INT00160,4,agent,Let me review the current field activity status.,2026-08-03 16:02:20
+TR0000641,INT00161,1,customer,I am calling about a field activity status on my account.,2026-08-03 21:00:35
+TR0000642,INT00161,2,agent,I can review the relevant account information and history.,2026-08-03 21:01:10
+TR0000643,INT00161,3,customer,Can you tell me what you find?,2026-08-03 21:01:45
+TR0000644,INT00161,4,agent,"Yes, I will check the available information and next steps.",2026-08-03 21:02:20
+TR0000645,INT00162,1,customer,I have a question about my meter and the latest reading.,2026-08-04 02:00:35
+TR0000646,INT00162,2,agent,I will review your meter information and consumption history.,2026-08-04 02:01:10
+TR0000647,INT00162,3,customer,The usage looks unusual.,2026-08-04 02:01:45
+TR0000648,INT00162,4,agent,I will check the meter status and recent reads.,2026-08-04 02:02:20
+TR0000649,INT00163,1,customer,Is there a water outage affecting my area?,2026-08-04 07:00:35
+TR0000650,INT00163,2,agent,I will check the available operational information for your service address.,2026-08-04 07:01:10
+TR0000651,INT00163,3,customer,I noticed low pressure this morning.,2026-08-04 07:01:45
+TR0000652,INT00163,4,agent,I will review your account context and any available outage information.,2026-08-04 07:02:20
+TR0000653,INT00164,1,customer,I am calling about a billing explanation on my account.,2026-08-04 12:00:35
+TR0000654,INT00164,2,agent,I can review the relevant account information and history.,2026-08-04 12:01:10
+TR0000655,INT00164,3,customer,Can you tell me what you find?,2026-08-04 12:01:45
+TR0000656,INT00164,4,agent,"Yes, I will check the available information and next steps.",2026-08-04 12:02:20
+TR0000657,INT00165,1,customer,I received information about a lead service line. What is the status for my property?,2026-08-04 17:00:35
+TR0000658,INT00165,2,agent,I will check the Lead Reduction Program information for your premise.,2026-08-04 17:01:10
+TR0000659,INT00165,3,customer,Is a replacement already scheduled?,2026-08-04 17:01:45
+TR0000660,INT00165,4,agent,Let me review the current program status and dates.,2026-08-04 17:02:20
+TR0000661,INT00166,1,customer,I am calling about a general service question on my account.,2026-08-04 22:00:35
+TR0000662,INT00166,2,agent,I can review the relevant account information and history.,2026-08-04 22:01:10
+TR0000663,INT00166,3,customer,Can you tell me what you find?,2026-08-04 22:01:45
+TR0000664,INT00166,4,agent,"Yes, I will check the available information and next steps.",2026-08-04 22:02:20
+TR0000665,INT00167,1,customer,I am calling about a general inquiry on my account.,2026-08-05 03:00:35
+TR0000666,INT00167,2,agent,I can review the relevant account information and history.,2026-08-05 03:01:10
+TR0000667,INT00167,3,customer,Can you tell me what you find?,2026-08-05 03:01:45
+TR0000668,INT00167,4,agent,"Yes, I will check the available information and next steps.",2026-08-05 03:02:20
+TR0000669,INT00168,1,customer,My water bill is much higher than normal this month.,2026-08-05 08:00:35
+TR0000670,INT00168,2,agent,I can review your recent billing and water consumption.,2026-08-05 08:01:10
+TR0000671,INT00168,3,customer,I have not made any major changes at home.,2026-08-05 08:01:45
+TR0000672,INT00168,4,agent,I will check for unusual usage and any relevant account history.,2026-08-05 08:02:20
+TR0000673,INT00169,1,customer,I made a payment recently and want to make sure it posted.,2026-08-05 13:00:35
+TR0000674,INT00169,2,agent,I will check your payment history and current balance.,2026-08-05 13:01:10
+TR0000675,INT00169,3,customer,It was made online yesterday.,2026-08-05 13:01:45
+TR0000676,INT00169,4,agent,I can confirm the latest posted payment for you.,2026-08-05 13:02:20
+TR0000677,INT00170,1,customer,I am calling about a possible leak on my account.,2026-08-05 18:00:35
+TR0000678,INT00170,2,agent,I can review the relevant account information and history.,2026-08-05 18:01:10
+TR0000679,INT00170,3,customer,Can you tell me what you find?,2026-08-05 18:01:45
+TR0000680,INT00170,4,agent,"Yes, I will check the available information and next steps.",2026-08-05 18:02:20
+TR0000681,INT00171,1,customer,I need to transfer water service because a new tenant is moving in.,2026-08-05 23:00:35
+TR0000682,INT00171,2,agent,"I will review the account, premise, and service history.",2026-08-05 23:01:10
+TR0000683,INT00171,3,customer,The change should be effective this month.,2026-08-05 23:01:45
+TR0000684,INT00171,4,agent,I will verify the current relationship and transfer details.,2026-08-05 23:02:20
+TR0000685,INT00172,1,customer,I have no water at my house right now.,2026-08-06 04:00:35
+TR0000686,INT00172,2,agent,I will check your account and see whether there is already field work in progress.,2026-08-06 04:01:10
+TR0000687,INT00172,3,customer,Do you know when someone will arrive?,2026-08-06 04:01:45
+TR0000688,INT00172,4,agent,Let me review the current field activity status.,2026-08-06 04:02:20
+TR0000689,INT00173,1,customer,I am calling about a field activity status on my account.,2026-08-06 09:00:35
+TR0000690,INT00173,2,agent,I can review the relevant account information and history.,2026-08-06 09:01:10
+TR0000691,INT00173,3,customer,Can you tell me what you find?,2026-08-06 09:01:45
+TR0000692,INT00173,4,agent,"Yes, I will check the available information and next steps.",2026-08-06 09:02:20
+TR0000693,INT00174,1,customer,I have a question about my meter and the latest reading.,2026-08-06 14:00:35
+TR0000694,INT00174,2,agent,I will review your meter information and consumption history.,2026-08-06 14:01:10
+TR0000695,INT00174,3,customer,The usage looks unusual.,2026-08-06 14:01:45
+TR0000696,INT00174,4,agent,I will check the meter status and recent reads.,2026-08-06 14:02:20
+TR0000697,INT00175,1,customer,Is there a water outage affecting my area?,2026-08-06 19:00:35
+TR0000698,INT00175,2,agent,I will check the available operational information for your service address.,2026-08-06 19:01:10
+TR0000699,INT00175,3,customer,I noticed low pressure this morning.,2026-08-06 19:01:45
+TR0000700,INT00175,4,agent,I will review your account context and any available outage information.,2026-08-06 19:02:20
+TR0000701,INT00176,1,customer,I am calling about a billing explanation on my account.,2026-08-07 00:00:35
+TR0000702,INT00176,2,agent,I can review the relevant account information and history.,2026-08-07 00:01:10
+TR0000703,INT00176,3,customer,Can you tell me what you find?,2026-08-07 00:01:45
+TR0000704,INT00176,4,agent,"Yes, I will check the available information and next steps.",2026-08-07 00:02:20
+TR0000705,INT00177,1,customer,I received information about a lead service line. What is the status for my property?,2026-08-07 05:00:35
+TR0000706,INT00177,2,agent,I will check the Lead Reduction Program information for your premise.,2026-08-07 05:01:10
+TR0000707,INT00177,3,customer,Is a replacement already scheduled?,2026-08-07 05:01:45
+TR0000708,INT00177,4,agent,Let me review the current program status and dates.,2026-08-07 05:02:20
+TR0000709,INT00178,1,customer,I am calling about a general service question on my account.,2026-08-07 10:00:35
+TR0000710,INT00178,2,agent,I can review the relevant account information and history.,2026-08-07 10:01:10
+TR0000711,INT00178,3,customer,Can you tell me what you find?,2026-08-07 10:01:45
+TR0000712,INT00178,4,agent,"Yes, I will check the available information and next steps.",2026-08-07 10:02:20
+TR0000713,INT00179,1,customer,I am calling about a general inquiry on my account.,2026-08-07 15:00:35
+TR0000714,INT00179,2,agent,I can review the relevant account information and history.,2026-08-07 15:01:10
+TR0000715,INT00179,3,customer,Can you tell me what you find?,2026-08-07 15:01:45
+TR0000716,INT00179,4,agent,"Yes, I will check the available information and next steps.",2026-08-07 15:02:20
+TR0000717,INT00180,1,customer,My water bill is much higher than normal this month.,2026-08-07 20:00:35
+TR0000718,INT00180,2,agent,I can review your recent billing and water consumption.,2026-08-07 20:01:10
+TR0000719,INT00180,3,customer,I have not made any major changes at home.,2026-08-07 20:01:45
+TR0000720,INT00180,4,agent,I will check for unusual usage and any relevant account history.,2026-08-07 20:02:20
+TR0000721,INT00181,1,customer,I made a payment recently and want to make sure it posted.,2026-08-08 01:00:35
+TR0000722,INT00181,2,agent,I will check your payment history and current balance.,2026-08-08 01:01:10
+TR0000723,INT00181,3,customer,It was made online yesterday.,2026-08-08 01:01:45
+TR0000724,INT00181,4,agent,I can confirm the latest posted payment for you.,2026-08-08 01:02:20
+TR0000725,INT00182,1,customer,I am calling about a possible leak on my account.,2026-08-08 06:00:35
+TR0000726,INT00182,2,agent,I can review the relevant account information and history.,2026-08-08 06:01:10
+TR0000727,INT00182,3,customer,Can you tell me what you find?,2026-08-08 06:01:45
+TR0000728,INT00182,4,agent,"Yes, I will check the available information and next steps.",2026-08-08 06:02:20
+TR0000729,INT00183,1,customer,I need to transfer water service because a new tenant is moving in.,2026-08-08 11:00:35
+TR0000730,INT00183,2,agent,"I will review the account, premise, and service history.",2026-08-08 11:01:10
+TR0000731,INT00183,3,customer,The change should be effective this month.,2026-08-08 11:01:45
+TR0000732,INT00183,4,agent,I will verify the current relationship and transfer details.,2026-08-08 11:02:20
+TR0000733,INT00184,1,customer,I have no water at my house right now.,2026-08-08 16:00:35
+TR0000734,INT00184,2,agent,I will check your account and see whether there is already field work in progress.,2026-08-08 16:01:10
+TR0000735,INT00184,3,customer,Do you know when someone will arrive?,2026-08-08 16:01:45
+TR0000736,INT00184,4,agent,Let me review the current field activity status.,2026-08-08 16:02:20
+TR0000737,INT00185,1,customer,I am calling about a field activity status on my account.,2026-08-08 21:00:35
+TR0000738,INT00185,2,agent,I can review the relevant account information and history.,2026-08-08 21:01:10
+TR0000739,INT00185,3,customer,Can you tell me what you find?,2026-08-08 21:01:45
+TR0000740,INT00185,4,agent,"Yes, I will check the available information and next steps.",2026-08-08 21:02:20
+TR0000741,INT00186,1,customer,I have a question about my meter and the latest reading.,2026-08-09 02:00:35
+TR0000742,INT00186,2,agent,I will review your meter information and consumption history.,2026-08-09 02:01:10
+TR0000743,INT00186,3,customer,The usage looks unusual.,2026-08-09 02:01:45
+TR0000744,INT00186,4,agent,I will check the meter status and recent reads.,2026-08-09 02:02:20
+TR0000745,INT00187,1,customer,Is there a water outage affecting my area?,2026-08-09 07:00:35
+TR0000746,INT00187,2,agent,I will check the available operational information for your service address.,2026-08-09 07:01:10
+TR0000747,INT00187,3,customer,I noticed low pressure this morning.,2026-08-09 07:01:45
+TR0000748,INT00187,4,agent,I will review your account context and any available outage information.,2026-08-09 07:02:20
+TR0000749,INT00188,1,customer,I am calling about a billing explanation on my account.,2026-08-09 12:00:35
+TR0000750,INT00188,2,agent,I can review the relevant account information and history.,2026-08-09 12:01:10
+TR0000751,INT00188,3,customer,Can you tell me what you find?,2026-08-09 12:01:45
+TR0000752,INT00188,4,agent,"Yes, I will check the available information and next steps.",2026-08-09 12:02:20
+TR0000753,INT00189,1,customer,I received information about a lead service line. What is the status for my property?,2026-08-09 17:00:35
+TR0000754,INT00189,2,agent,I will check the Lead Reduction Program information for your premise.,2026-08-09 17:01:10
+TR0000755,INT00189,3,customer,Is a replacement already scheduled?,2026-08-09 17:01:45
+TR0000756,INT00189,4,agent,Let me review the current program status and dates.,2026-08-09 17:02:20
+TR0000757,INT00190,1,customer,I am calling about a general service question on my account.,2026-08-09 22:00:35
+TR0000758,INT00190,2,agent,I can review the relevant account information and history.,2026-08-09 22:01:10
+TR0000759,INT00190,3,customer,Can you tell me what you find?,2026-08-09 22:01:45
+TR0000760,INT00190,4,agent,"Yes, I will check the available information and next steps.",2026-08-09 22:02:20
+TR0000761,INT00191,1,customer,I am calling about a general inquiry on my account.,2026-08-10 03:00:35
+TR0000762,INT00191,2,agent,I can review the relevant account information and history.,2026-08-10 03:01:10
+TR0000763,INT00191,3,customer,Can you tell me what you find?,2026-08-10 03:01:45
+TR0000764,INT00191,4,agent,"Yes, I will check the available information and next steps.",2026-08-10 03:02:20
+TR0000765,INT00192,1,customer,My water bill is much higher than normal this month.,2026-08-10 08:00:35
+TR0000766,INT00192,2,agent,I can review your recent billing and water consumption.,2026-08-10 08:01:10
+TR0000767,INT00192,3,customer,I have not made any major changes at home.,2026-08-10 08:01:45
+TR0000768,INT00192,4,agent,I will check for unusual usage and any relevant account history.,2026-08-10 08:02:20
+TR0000769,INT00193,1,customer,I made a payment recently and want to make sure it posted.,2026-08-10 13:00:35
+TR0000770,INT00193,2,agent,I will check your payment history and current balance.,2026-08-10 13:01:10
+TR0000771,INT00193,3,customer,It was made online yesterday.,2026-08-10 13:01:45
+TR0000772,INT00193,4,agent,I can confirm the latest posted payment for you.,2026-08-10 13:02:20
+TR0000773,INT00194,1,customer,I am calling about a possible leak on my account.,2026-08-10 18:00:35
+TR0000774,INT00194,2,agent,I can review the relevant account information and history.,2026-08-10 18:01:10
+TR0000775,INT00194,3,customer,Can you tell me what you find?,2026-08-10 18:01:45
+TR0000776,INT00194,4,agent,"Yes, I will check the available information and next steps.",2026-08-10 18:02:20
+TR0000777,INT00195,1,customer,I need to transfer water service because a new tenant is moving in.,2026-08-10 23:00:35
+TR0000778,INT00195,2,agent,"I will review the account, premise, and service history.",2026-08-10 23:01:10
+TR0000779,INT00195,3,customer,The change should be effective this month.,2026-08-10 23:01:45
+TR0000780,INT00195,4,agent,I will verify the current relationship and transfer details.,2026-08-10 23:02:20
+TR0000781,INT00196,1,customer,I have no water at my house right now.,2026-08-11 04:00:35
+TR0000782,INT00196,2,agent,I will check your account and see whether there is already field work in progress.,2026-08-11 04:01:10
+TR0000783,INT00196,3,customer,Do you know when someone will arrive?,2026-08-11 04:01:45
+TR0000784,INT00196,4,agent,Let me review the current field activity status.,2026-08-11 04:02:20
+TR0000785,INT00197,1,customer,I am calling about a field activity status on my account.,2026-08-11 09:00:35
+TR0000786,INT00197,2,agent,I can review the relevant account information and history.,2026-08-11 09:01:10
+TR0000787,INT00197,3,customer,Can you tell me what you find?,2026-08-11 09:01:45
+TR0000788,INT00197,4,agent,"Yes, I will check the available information and next steps.",2026-08-11 09:02:20
+TR0000789,INT00198,1,customer,I have a question about my meter and the latest reading.,2026-08-11 14:00:35
+TR0000790,INT00198,2,agent,I will review your meter information and consumption history.,2026-08-11 14:01:10
+TR0000791,INT00198,3,customer,The usage looks unusual.,2026-08-11 14:01:45
+TR0000792,INT00198,4,agent,I will check the meter status and recent reads.,2026-08-11 14:02:20
+TR0000793,INT00199,1,customer,Is there a water outage affecting my area?,2026-08-11 19:00:35
+TR0000794,INT00199,2,agent,I will check the available operational information for your service address.,2026-08-11 19:01:10
+TR0000795,INT00199,3,customer,I noticed low pressure this morning.,2026-08-11 19:01:45
+TR0000796,INT00199,4,agent,I will review your account context and any available outage information.,2026-08-11 19:02:20
+TR0000797,INT00200,1,customer,I am calling about a billing explanation on my account.,2026-08-12 00:00:35
+TR0000798,INT00200,2,agent,I can review the relevant account information and history.,2026-08-12 00:01:10
+TR0000799,INT00200,3,customer,Can you tell me what you find?,2026-08-12 00:01:45
+TR0000800,INT00200,4,agent,"Yes, I will check the available information and next steps.",2026-08-12 00:02:20

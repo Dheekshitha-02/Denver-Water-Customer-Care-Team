@@ -1,0 +1,16 @@
+user_id,employee_number,first_name,last_name,email,role,department,active
+USR001,DW1001,Angela,Robinson,agent01@example.com,Supervisor,Water Sales,True
+USR002,DW1002,Kevin,Clark,agent02@example.com,Supervisor,BST,True
+USR003,DW1003,Michelle,Lewis,agent03@example.com,Customer Care Representative,Key Accounts,True
+USR004,DW1004,Brian,Lee,agent04@example.com,Customer Care Representative,Dispatch,True
+USR005,DW1005,Donna,Walker,agent05@example.com,Customer Care Representative,Customer Care,True
+USR006,DW1006,Jose,Hall,agent06@example.com,Customer Care Representative,Water Sales,True
+USR007,DW1007,Kimberly,Allen,agent07@example.com,Customer Care Representative,BST,True
+USR008,DW1008,Jason,Young,agent08@example.com,Customer Care Representative,Key Accounts,True
+USR009,DW1009,Sandra,King,agent09@example.com,Customer Care Representative,Dispatch,True
+USR010,DW1010,Eric,Wright,agent10@example.com,Customer Care Representative,Customer Care,True
+USR011,DW1011,Rebecca,Lopez,agent11@example.com,Customer Care Representative,Water Sales,True
+USR012,DW1012,Adam,Hill,agent12@example.com,Customer Care Representative,BST,True
+USR013,DW1013,Laura,Scott,agent13@example.com,Customer Care Representative,Key Accounts,True
+USR014,DW1014,Nathan,Green,agent14@example.com,Customer Care Representative,Dispatch,True
+USR015,DW1015,Monica,Adams,agent15@example.com,Customer Care Representative,Customer Care,True

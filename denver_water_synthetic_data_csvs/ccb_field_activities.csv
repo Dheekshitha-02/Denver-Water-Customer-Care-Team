@@ -1,0 +1,83 @@
+field_activity_id,account_id,premise_id,service_point_id,activity_type,activity_status,priority,service_area,dispatch_group,scheduled_date,completed_date,instructions,resolution_notes,created_at
+FA00001,ACC0001,PREM0001,SP0001,Leak Investigation,Scheduled,Normal,North,Field Service North,2026-05-06,,Inspect service condition and document findings.,,2026-05-03
+FA00002,ACC0002,PREM0002,SP0002,No Water,Dispatched,High,South,Field Service South,2026-05-08,,Inspect service condition and document findings.,,2026-05-05
+FA00003,ACC0003,PREM0003,SP0003,Meter Exchange,Completed,Urgent,East,Emergency Dispatch,2026-05-10,2026-05-12,Inspect service condition and document findings.,Activity completed; customer advised.,2026-05-07
+FA00004,ACC0004,PREM0004,SP0004,Service Turn On,Open,Low,West,Meter Shop,,,Inspect service condition and document findings.,,2026-05-09
+FA00005,ACC0005,PREM0005,SP0005,Service Turn Off,Scheduled,Normal,Central,Field Service North,2026-05-14,,Inspect service condition and document findings.,,2026-05-11
+FA00006,ACC0006,PREM0006,SP0006,High Usage Investigation,Dispatched,High,North,Field Service South,2026-05-16,,Inspect service condition and document findings.,,2026-05-13
+FA00007,ACC0007,PREM0007,SP0007,Meter Investigation,Completed,Urgent,South,Emergency Dispatch,2026-05-18,2026-05-20,Inspect service condition and document findings.,Activity completed; customer advised.,2026-05-15
+FA00008,ACC0008,PREM0008,SP0008,Leak Investigation,Open,Low,East,Meter Shop,,,Inspect service condition and document findings.,,2026-05-17
+FA00009,ACC0009,PREM0009,SP0009,No Water,Scheduled,Normal,West,Field Service North,2026-05-22,,Inspect service condition and document findings.,,2026-05-19
+FA00010,ACC0010,PREM0010,SP0010,Meter Exchange,Dispatched,High,Central,Field Service South,2026-05-24,,Inspect service condition and document findings.,,2026-05-21
+FA00011,ACC0011,PREM0011,SP0011,Service Turn On,Completed,Urgent,North,Emergency Dispatch,2026-05-26,2026-05-28,Inspect service condition and document findings.,Activity completed; customer advised.,2026-05-23
+FA00012,ACC0012,PREM0012,SP0012,Service Turn Off,Open,Low,South,Meter Shop,,,Inspect service condition and document findings.,,2026-05-25
+FA00013,ACC0013,PREM0013,SP0013,High Usage Investigation,Scheduled,Normal,East,Field Service North,2026-05-30,,Inspect service condition and document findings.,,2026-05-27
+FA00014,ACC0014,PREM0014,SP0014,Meter Investigation,Dispatched,High,West,Field Service South,2026-06-01,,Inspect service condition and document findings.,,2026-05-29
+FA00015,ACC0015,PREM0015,SP0015,Leak Investigation,Completed,Urgent,Central,Emergency Dispatch,2026-06-03,2026-06-05,Inspect service condition and document findings.,Activity completed; customer advised.,2026-05-31
+FA00016,ACC0016,PREM0016,SP0016,No Water,Open,Low,North,Meter Shop,,,Inspect service condition and document findings.,,2026-06-02
+FA00017,ACC0017,PREM0017,SP0017,Meter Exchange,Scheduled,Normal,South,Field Service North,2026-06-07,,Inspect service condition and document findings.,,2026-06-04
+FA00018,ACC0018,PREM0018,SP0018,Service Turn On,Dispatched,High,East,Field Service South,2026-06-09,,Inspect service condition and document findings.,,2026-06-06
+FA00019,ACC0019,PREM0019,SP0019,Service Turn Off,Completed,Urgent,West,Emergency Dispatch,2026-06-11,2026-06-13,Inspect service condition and document findings.,Activity completed; customer advised.,2026-06-08
+FA00020,ACC0020,PREM0020,SP0020,High Usage Investigation,Open,Low,Central,Meter Shop,,,Inspect service condition and document findings.,,2026-06-10
+FA00021,ACC0021,PREM0021,SP0021,Meter Investigation,Scheduled,Normal,North,Field Service North,2026-06-15,,Inspect service condition and document findings.,,2026-06-12
+FA00022,ACC0022,PREM0022,SP0022,Leak Investigation,Dispatched,High,South,Field Service South,2026-06-17,,Inspect service condition and document findings.,,2026-06-14
+FA00023,ACC0023,PREM0023,SP0023,No Water,Completed,Urgent,East,Emergency Dispatch,2026-06-19,2026-06-21,Inspect service condition and document findings.,Activity completed; customer advised.,2026-06-16
+FA00024,ACC0024,PREM0024,SP0024,Meter Exchange,Open,Low,West,Meter Shop,,,Inspect service condition and document findings.,,2026-06-18
+FA00025,ACC0025,PREM0025,SP0025,Service Turn On,Scheduled,Normal,Central,Field Service North,2026-06-23,,Inspect service condition and document findings.,,2026-06-20
+FA00026,ACC0026,PREM0026,SP0026,Service Turn Off,Dispatched,High,North,Field Service South,2026-06-25,,Inspect service condition and document findings.,,2026-06-22
+FA00027,ACC0027,PREM0027,SP0027,High Usage Investigation,Completed,Urgent,South,Emergency Dispatch,2026-06-27,2026-06-29,Inspect service condition and document findings.,Activity completed; customer advised.,2026-06-24
+FA00028,ACC0028,PREM0028,SP0028,Meter Investigation,Open,Low,East,Meter Shop,,,Inspect service condition and document findings.,,2026-06-26
+FA00029,ACC0029,PREM0029,SP0029,Leak Investigation,Scheduled,Normal,West,Field Service North,2026-07-01,,Inspect service condition and document findings.,,2026-06-28
+FA00030,ACC0030,PREM0030,SP0030,No Water,Dispatched,High,Central,Field Service South,2026-07-03,,Inspect service condition and document findings.,,2026-06-30
+FA00031,ACC0031,PREM0031,SP0031,Meter Exchange,Completed,Urgent,North,Emergency Dispatch,2026-07-05,2026-07-07,Inspect service condition and document findings.,Activity completed; customer advised.,2026-07-02
+FA00032,ACC0032,PREM0032,SP0032,Service Turn On,Open,Low,South,Meter Shop,,,Inspect service condition and document findings.,,2026-07-04
+FA00033,ACC0033,PREM0033,SP0033,Service Turn Off,Scheduled,Normal,East,Field Service North,2026-07-09,,Inspect service condition and document findings.,,2026-07-06
+FA00034,ACC0034,PREM0034,SP0034,High Usage Investigation,Dispatched,High,West,Field Service South,2026-07-11,,Inspect service condition and document findings.,,2026-07-08
+FA00035,ACC0035,PREM0035,SP0035,Meter Investigation,Completed,Urgent,Central,Emergency Dispatch,2026-07-13,2026-07-15,Inspect service condition and document findings.,Activity completed; customer advised.,2026-07-10
+FA00036,ACC0036,PREM0036,SP0036,Leak Investigation,Open,Low,North,Meter Shop,,,Inspect service condition and document findings.,,2026-07-12
+FA00037,ACC0037,PREM0037,SP0037,No Water,Scheduled,Normal,South,Field Service North,2026-07-17,,Inspect service condition and document findings.,,2026-07-14
+FA00038,ACC0038,PREM0038,SP0038,Meter Exchange,Dispatched,High,East,Field Service South,2026-07-19,,Inspect service condition and document findings.,,2026-07-16
+FA00039,ACC0039,PREM0039,SP0039,Service Turn On,Completed,Urgent,West,Emergency Dispatch,2026-07-21,2026-07-23,Inspect service condition and document findings.,Activity completed; customer advised.,2026-07-18
+FA00040,ACC0040,PREM0040,SP0040,Service Turn Off,Open,Low,Central,Meter Shop,,,Inspect service condition and document findings.,,2026-07-20
+FA00041,ACC0041,PREM0041,SP0041,High Usage Investigation,Scheduled,Normal,North,Field Service North,2026-07-25,,Inspect service condition and document findings.,,2026-07-22
+FA00042,ACC0042,PREM0042,SP0042,Meter Investigation,Dispatched,High,South,Field Service South,2026-07-27,,Inspect service condition and document findings.,,2026-07-24
+FA00043,ACC0043,PREM0043,SP0043,Leak Investigation,Completed,Urgent,East,Emergency Dispatch,2026-07-29,2026-07-31,Inspect service condition and document findings.,Activity completed; customer advised.,2026-07-26
+FA00044,ACC0044,PREM0044,SP0044,No Water,Open,Low,West,Meter Shop,,,Inspect service condition and document findings.,,2026-07-28
+FA00045,ACC0045,PREM0045,SP0045,Meter Exchange,Scheduled,Normal,Central,Field Service North,2026-08-02,,Inspect service condition and document findings.,,2026-07-30
+FA00046,ACC0046,PREM0046,SP0046,Service Turn On,Dispatched,High,North,Field Service South,2026-08-04,,Inspect service condition and document findings.,,2026-08-01
+FA00047,ACC0047,PREM0047,SP0047,Service Turn Off,Completed,Urgent,South,Emergency Dispatch,2026-08-06,2026-08-08,Inspect service condition and document findings.,Activity completed; customer advised.,2026-08-03
+FA00048,ACC0048,PREM0048,SP0048,High Usage Investigation,Open,Low,East,Meter Shop,,,Inspect service condition and document findings.,,2026-08-05
+FA00049,ACC0049,PREM0049,SP0049,Meter Investigation,Scheduled,Normal,West,Field Service North,2026-08-10,,Inspect service condition and document findings.,,2026-08-07
+FA00050,ACC0050,PREM0050,SP0050,Leak Investigation,Dispatched,High,Central,Field Service South,2026-08-12,,Inspect service condition and document findings.,,2026-08-09
+FA00051,ACC0051,PREM0051,SP0051,No Water,Completed,Urgent,North,Emergency Dispatch,2026-08-14,2026-08-16,Inspect service condition and document findings.,Activity completed; customer advised.,2026-08-11
+FA00052,ACC0052,PREM0052,SP0052,Meter Exchange,Open,Low,South,Meter Shop,,,Inspect service condition and document findings.,,2026-08-13
+FA00053,ACC0053,PREM0053,SP0053,Service Turn On,Scheduled,Normal,East,Field Service North,2026-08-18,,Inspect service condition and document findings.,,2026-08-15
+FA00054,ACC0054,PREM0054,SP0054,Service Turn Off,Dispatched,High,West,Field Service South,2026-08-20,,Inspect service condition and document findings.,,2026-08-17
+FA00055,ACC0055,PREM0055,SP0055,High Usage Investigation,Completed,Urgent,Central,Emergency Dispatch,2026-08-22,2026-08-24,Inspect service condition and document findings.,Activity completed; customer advised.,2026-08-19
+FA00056,ACC0056,PREM0056,SP0056,Meter Investigation,Open,Low,North,Meter Shop,,,Inspect service condition and document findings.,,2026-08-21
+FA00057,ACC0057,PREM0057,SP0057,Leak Investigation,Scheduled,Normal,South,Field Service North,2026-08-26,,Inspect service condition and document findings.,,2026-08-23
+FA00058,ACC0058,PREM0058,SP0058,No Water,Dispatched,High,East,Field Service South,2026-08-28,,Inspect service condition and document findings.,,2026-08-25
+FA00059,ACC0059,PREM0059,SP0059,Meter Exchange,Completed,Urgent,West,Emergency Dispatch,2026-08-30,2026-09-01,Inspect service condition and document findings.,Activity completed; customer advised.,2026-08-27
+FA00060,ACC0060,PREM0060,SP0060,Service Turn On,Open,Low,Central,Meter Shop,,,Inspect service condition and document findings.,,2026-08-29
+FA00061,ACC0001,PREM0001,SP0001,Service Turn Off,Scheduled,Normal,North,Field Service North,2026-09-03,,Inspect service condition and document findings.,,2026-08-31
+FA00062,ACC0002,PREM0002,SP0002,High Usage Investigation,Dispatched,High,South,Field Service South,2026-09-05,,Inspect service condition and document findings.,,2026-09-02
+FA00063,ACC0003,PREM0003,SP0003,Meter Investigation,Completed,Urgent,East,Emergency Dispatch,2026-09-07,2026-09-09,Inspect service condition and document findings.,Activity completed; customer advised.,2026-09-04
+FA00064,ACC0004,PREM0004,SP0004,Leak Investigation,Open,Low,West,Meter Shop,,,Inspect service condition and document findings.,,2026-09-06
+FA00065,ACC0005,PREM0005,SP0005,No Water,Scheduled,Normal,Central,Field Service North,2026-09-11,,Inspect service condition and document findings.,,2026-09-08
+FA00066,ACC0006,PREM0006,SP0006,Meter Exchange,Dispatched,High,North,Field Service South,2026-09-13,,Inspect service condition and document findings.,,2026-09-10
+FA00067,ACC0007,PREM0007,SP0007,Service Turn On,Completed,Urgent,South,Emergency Dispatch,2026-09-15,2026-09-17,Inspect service condition and document findings.,Activity completed; customer advised.,2026-09-12
+FA00068,ACC0008,PREM0008,SP0008,Service Turn Off,Open,Low,East,Meter Shop,,,Inspect service condition and document findings.,,2026-09-14
+FA00069,ACC0009,PREM0009,SP0009,High Usage Investigation,Scheduled,Normal,West,Field Service North,2026-09-19,,Inspect service condition and document findings.,,2026-09-16
+FA00070,ACC0010,PREM0010,SP0010,Meter Investigation,Dispatched,High,Central,Field Service South,2026-09-21,,Inspect service condition and document findings.,,2026-09-18
+FA00071,ACC0011,PREM0011,SP0011,Leak Investigation,Completed,Urgent,North,Emergency Dispatch,2026-09-23,2026-09-25,Inspect service condition and document findings.,Activity completed; customer advised.,2026-09-20
+FA00072,ACC0012,PREM0012,SP0012,No Water,Open,Low,South,Meter Shop,,,Inspect service condition and document findings.,,2026-09-22
+FA00073,ACC0013,PREM0013,SP0013,Meter Exchange,Scheduled,Normal,East,Field Service North,2026-09-27,,Inspect service condition and document findings.,,2026-09-24
+FA00074,ACC0014,PREM0014,SP0014,Service Turn On,Dispatched,High,West,Field Service South,2026-09-29,,Inspect service condition and document findings.,,2026-09-26
+FA00075,ACC0015,PREM0015,SP0015,Service Turn Off,Completed,Urgent,Central,Emergency Dispatch,2026-10-01,2026-10-03,Inspect service condition and document findings.,Activity completed; customer advised.,2026-09-28
+FA00076,ACC0016,PREM0016,SP0016,High Usage Investigation,Open,Low,North,Meter Shop,,,Inspect service condition and document findings.,,2026-09-30
+FA00077,ACC0017,PREM0017,SP0017,Meter Investigation,Scheduled,Normal,South,Field Service North,2026-10-05,,Inspect service condition and document findings.,,2026-10-02
+FA00078,ACC0018,PREM0018,SP0018,Leak Investigation,Dispatched,High,East,Field Service South,2026-10-07,,Inspect service condition and document findings.,,2026-10-04
+FA00079,ACC0019,PREM0019,SP0019,No Water,Completed,Urgent,West,Emergency Dispatch,2026-10-09,2026-10-11,Inspect service condition and document findings.,Activity completed; customer advised.,2026-10-06
+FA00080,ACC0020,PREM0020,SP0020,Meter Exchange,Open,Low,Central,Meter Shop,,,Inspect service condition and document findings.,,2026-10-08
+FA90001,ACC0002,PREM0002,SP0002,No Water,Dispatched,Urgent,South,Emergency Dispatch,2026-09-23,,Investigate no-water condition reported by customer.,,2026-09-23
+FA90002,ACC0008,PREM0008,SP0008,High Usage Investigation,Scheduled,High,East,Meter Shop,2026-09-25,,Check meter and premise for unusually high usage.,,2026-09-21

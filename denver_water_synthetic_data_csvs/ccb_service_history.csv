@@ -1,0 +1,52 @@
+service_history_id,account_id,premise_id,person_id,event_type,effective_date,end_date,previous_value,new_value,notes
+SH00001,ACC0007,PREM0007,PER0007,Service Stopped,2023-01-20,,,,Synthetic service stopped history event.
+SH00002,ACC0014,PREM0014,PER0014,Tenant Changed,2023-02-08,,Previous customer/relationship,Updated customer/relationship,Synthetic tenant changed history event.
+SH00003,ACC0021,PREM0021,PER0021,Owner Changed,2023-02-27,,Previous customer/relationship,Updated customer/relationship,Synthetic owner changed history event.
+SH00004,ACC0028,PREM0028,PER0028,Management Company Changed,2023-03-18,,Previous customer/relationship,Updated customer/relationship,Synthetic management company changed history event.
+SH00005,ACC0035,PREM0035,PER0035,Transfer of Service,2023-04-06,,Previous customer/relationship,Updated customer/relationship,Synthetic transfer of service history event.
+SH00006,ACC0042,PREM0042,PER0042,Service Started,2023-04-25,,,,Synthetic service started history event.
+SH00007,ACC0049,PREM0049,PER0049,Service Stopped,2023-05-14,,,,Synthetic service stopped history event.
+SH00008,ACC0056,PREM0056,PER0056,Tenant Changed,2023-06-02,,Previous customer/relationship,Updated customer/relationship,Synthetic tenant changed history event.
+SH00009,ACC0003,PREM0003,PER0003,Owner Changed,2023-06-21,,Previous customer/relationship,Updated customer/relationship,Synthetic owner changed history event.
+SH00010,ACC0010,PREM0010,PER0010,Management Company Changed,2023-07-10,,Previous customer/relationship,Updated customer/relationship,Synthetic management company changed history event.
+SH00011,ACC0017,PREM0017,PER0017,Transfer of Service,2023-07-29,,Previous customer/relationship,Updated customer/relationship,Synthetic transfer of service history event.
+SH00012,ACC0024,PREM0024,PER0024,Service Started,2023-08-17,,,,Synthetic service started history event.
+SH00013,ACC0031,PREM0031,PER0031,Service Stopped,2023-09-05,,,,Synthetic service stopped history event.
+SH00014,ACC0038,PREM0038,PER0038,Tenant Changed,2023-09-24,,Previous customer/relationship,Updated customer/relationship,Synthetic tenant changed history event.
+SH00015,ACC0045,PREM0045,PER0045,Owner Changed,2023-10-13,,Previous customer/relationship,Updated customer/relationship,Synthetic owner changed history event.
+SH00016,ACC0052,PREM0052,PER0052,Management Company Changed,2023-11-01,,Previous customer/relationship,Updated customer/relationship,Synthetic management company changed history event.
+SH00017,ACC0059,PREM0059,PER0059,Transfer of Service,2023-11-20,,Previous customer/relationship,Updated customer/relationship,Synthetic transfer of service history event.
+SH00018,ACC0006,PREM0006,PER0006,Service Started,2023-12-09,,,,Synthetic service started history event.
+SH00019,ACC0013,PREM0013,PER0013,Service Stopped,2023-12-28,,,,Synthetic service stopped history event.
+SH00020,ACC0020,PREM0020,PER0020,Tenant Changed,2024-01-16,,Previous customer/relationship,Updated customer/relationship,Synthetic tenant changed history event.
+SH00021,ACC0027,PREM0027,PER0027,Owner Changed,2024-02-04,,Previous customer/relationship,Updated customer/relationship,Synthetic owner changed history event.
+SH00022,ACC0034,PREM0034,PER0034,Management Company Changed,2024-02-23,,Previous customer/relationship,Updated customer/relationship,Synthetic management company changed history event.
+SH00023,ACC0041,PREM0041,PER0041,Transfer of Service,2024-03-13,,Previous customer/relationship,Updated customer/relationship,Synthetic transfer of service history event.
+SH00024,ACC0048,PREM0048,PER0048,Service Started,2024-04-01,,,,Synthetic service started history event.
+SH00025,ACC0055,PREM0055,PER0055,Service Stopped,2024-04-20,,,,Synthetic service stopped history event.
+SH00026,ACC0002,PREM0002,PER0002,Tenant Changed,2024-05-09,,Previous customer/relationship,Updated customer/relationship,Synthetic tenant changed history event.
+SH00027,ACC0009,PREM0009,PER0009,Owner Changed,2024-05-28,,Previous customer/relationship,Updated customer/relationship,Synthetic owner changed history event.
+SH00028,ACC0016,PREM0016,PER0016,Management Company Changed,2024-06-16,,Previous customer/relationship,Updated customer/relationship,Synthetic management company changed history event.
+SH00029,ACC0023,PREM0023,PER0023,Transfer of Service,2024-07-05,,Previous customer/relationship,Updated customer/relationship,Synthetic transfer of service history event.
+SH00030,ACC0030,PREM0030,PER0030,Service Started,2024-07-24,,,,Synthetic service started history event.
+SH00031,ACC0037,PREM0037,PER0037,Service Stopped,2024-08-12,,,,Synthetic service stopped history event.
+SH00032,ACC0044,PREM0044,PER0044,Tenant Changed,2024-08-31,,Previous customer/relationship,Updated customer/relationship,Synthetic tenant changed history event.
+SH00033,ACC0051,PREM0051,PER0051,Owner Changed,2024-09-19,,Previous customer/relationship,Updated customer/relationship,Synthetic owner changed history event.
+SH00034,ACC0058,PREM0058,PER0058,Management Company Changed,2024-10-08,,Previous customer/relationship,Updated customer/relationship,Synthetic management company changed history event.
+SH00035,ACC0005,PREM0005,PER0005,Transfer of Service,2024-10-27,,Previous customer/relationship,Updated customer/relationship,Synthetic transfer of service history event.
+SH00036,ACC0012,PREM0012,PER0012,Service Started,2024-11-15,,,,Synthetic service started history event.
+SH00037,ACC0019,PREM0019,PER0019,Service Stopped,2024-12-04,,,,Synthetic service stopped history event.
+SH00038,ACC0026,PREM0026,PER0026,Tenant Changed,2024-12-23,,Previous customer/relationship,Updated customer/relationship,Synthetic tenant changed history event.
+SH00039,ACC0033,PREM0033,PER0033,Owner Changed,2025-01-11,,Previous customer/relationship,Updated customer/relationship,Synthetic owner changed history event.
+SH00040,ACC0040,PREM0040,PER0040,Management Company Changed,2025-01-30,,Previous customer/relationship,Updated customer/relationship,Synthetic management company changed history event.
+SH00041,ACC0047,PREM0047,PER0047,Transfer of Service,2025-02-18,,Previous customer/relationship,Updated customer/relationship,Synthetic transfer of service history event.
+SH00042,ACC0054,PREM0054,PER0054,Service Started,2025-03-09,,,,Synthetic service started history event.
+SH00043,ACC0001,PREM0001,PER0001,Service Stopped,2025-03-28,,,,Synthetic service stopped history event.
+SH00044,ACC0008,PREM0008,PER0008,Tenant Changed,2025-04-16,,Previous customer/relationship,Updated customer/relationship,Synthetic tenant changed history event.
+SH00045,ACC0015,PREM0015,PER0015,Owner Changed,2025-05-05,,Previous customer/relationship,Updated customer/relationship,Synthetic owner changed history event.
+SH00046,ACC0022,PREM0022,PER0022,Management Company Changed,2025-05-24,,Previous customer/relationship,Updated customer/relationship,Synthetic management company changed history event.
+SH00047,ACC0029,PREM0029,PER0029,Transfer of Service,2025-06-12,,Previous customer/relationship,Updated customer/relationship,Synthetic transfer of service history event.
+SH00048,ACC0036,PREM0036,PER0036,Service Started,2025-07-01,,,,Synthetic service started history event.
+SH00049,ACC0043,PREM0043,PER0043,Service Stopped,2025-07-20,,,,Synthetic service stopped history event.
+SH00050,ACC0050,PREM0050,PER0050,Tenant Changed,2025-08-08,,Previous customer/relationship,Updated customer/relationship,Synthetic tenant changed history event.
+SH90001,ACC0005,PREM0005,PER0005,Transfer of Service,2026-09-15,,Previous tenant,New tenant,"Service transferred to new tenant effective September 15, 2026."

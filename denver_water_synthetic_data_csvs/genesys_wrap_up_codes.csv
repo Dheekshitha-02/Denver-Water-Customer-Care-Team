@@ -1,0 +1,13 @@
+wrap_up_code_id,code,name,description,active
+W001,HIGH_BILL,High Bill,Customer contacted Denver Water about an unexpectedly high bill.,True
+W002,PAYMENT,Payment Question,Payment status or payment-related inquiry.,True
+W003,LEAK,Leak Inquiry,Possible leak or unusual usage.,True
+W004,MOVE_SERVICE,Transfer Service,"Start, stop, or transfer water service.",True
+W005,NO_WATER,No Water,Customer reports no water service.,True
+W006,FIELD_ACTIVITY,Field Activity,Inquiry involving field work or field activity.,True
+W007,METER,Meter Question,"Meter read, test, exchange, or location inquiry.",True
+W008,OUTAGE,Outage,Planned or unplanned outage inquiry.,True
+W009,BILLING,Billing Question,General billing inquiry.,True
+W010,LEAD_PROGRAM,Lead Reduction Program,Lead service line or replacement program inquiry.,True
+W011,SERVICE,Service Question,General service inquiry.,True
+W012,GENERAL,General Inquiry,General information request.,True

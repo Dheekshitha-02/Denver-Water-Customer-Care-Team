@@ -1,0 +1,123 @@
+contact_note_id,account_id,person_id,contact_date,contact_type,contact_class,channel,subject,note_text,created_by,source
+CN000001,ACC0001,PER0001,2026-01-15,Usage,High Usage,Phone,High Usage,Reviewed recent water consumption and discussed possible seasonal usage.,USR002,Genesys
+CN000002,ACC0001,PER0001,2026-03-26,Payment,Payment Status,Email,Payment Status,Customer requested confirmation that recent payment posted.,USR003,Genesys
+CN000003,ACC0002,PER0002,2026-01-20,Payment,Payment Status,Phone,Payment Status,Customer requested confirmation that recent payment posted.,USR003,Genesys
+CN000004,ACC0002,PER0002,2026-03-31,Service,Service Question,Email,Service Question,Customer asked about service at the premise.,USR004,Genesys
+CN000005,ACC0003,PER0003,2026-01-25,Service,Service Question,Phone,Service Question,Customer asked about service at the premise.,USR004,Genesys
+CN000006,ACC0003,PER0003,2026-04-05,Meter,Meter Inquiry,Email,Meter Inquiry,Customer asked about meter reading and meter location.,USR005,Genesys
+CN000007,ACC0004,PER0004,2026-01-30,Meter,Meter Inquiry,Phone,Meter Inquiry,Customer asked about meter reading and meter location.,USR005,Genesys
+CN000008,ACC0004,PER0004,2026-04-10,Billing,General Billing,Email,General Billing,Customer asked for explanation of current bill and charges.,USR006,Genesys
+CN000009,ACC0005,PER0005,2026-02-04,Billing,General Billing,Phone,General Billing,Customer asked for explanation of current bill and charges.,USR006,Genesys
+CN000010,ACC0005,PER0005,2026-04-15,Usage,High Usage,Email,High Usage,Reviewed recent water consumption and discussed possible seasonal usage.,USR007,Genesys
+CN000011,ACC0006,PER0006,2026-02-09,Usage,High Usage,Phone,High Usage,Reviewed recent water consumption and discussed possible seasonal usage.,USR007,Genesys
+CN000012,ACC0006,PER0006,2026-04-20,Payment,Payment Status,Email,Payment Status,Customer requested confirmation that recent payment posted.,USR008,Genesys
+CN000013,ACC0007,PER0007,2026-02-14,Payment,Payment Status,Phone,Payment Status,Customer requested confirmation that recent payment posted.,USR008,Genesys
+CN000014,ACC0007,PER0007,2026-04-25,Service,Service Question,Email,Service Question,Customer asked about service at the premise.,USR009,Genesys
+CN000015,ACC0008,PER0008,2026-02-19,Service,Service Question,Phone,Service Question,Customer asked about service at the premise.,USR009,Genesys
+CN000016,ACC0008,PER0008,2026-04-30,Meter,Meter Inquiry,Email,Meter Inquiry,Customer asked about meter reading and meter location.,USR010,Genesys
+CN000017,ACC0009,PER0009,2026-02-24,Meter,Meter Inquiry,Phone,Meter Inquiry,Customer asked about meter reading and meter location.,USR010,Genesys
+CN000018,ACC0009,PER0009,2026-05-05,Billing,General Billing,Email,General Billing,Customer asked for explanation of current bill and charges.,USR011,Genesys
+CN000019,ACC0010,PER0010,2026-03-01,Billing,General Billing,Phone,General Billing,Customer asked for explanation of current bill and charges.,USR011,Genesys
+CN000020,ACC0010,PER0010,2026-05-10,Usage,High Usage,Email,High Usage,Reviewed recent water consumption and discussed possible seasonal usage.,USR012,Genesys
+CN000021,ACC0011,PER0011,2026-03-06,Usage,High Usage,Phone,High Usage,Reviewed recent water consumption and discussed possible seasonal usage.,USR012,Genesys
+CN000022,ACC0011,PER0011,2026-05-15,Payment,Payment Status,Email,Payment Status,Customer requested confirmation that recent payment posted.,USR013,Genesys
+CN000023,ACC0012,PER0012,2026-03-11,Payment,Payment Status,Phone,Payment Status,Customer requested confirmation that recent payment posted.,USR013,Genesys
+CN000024,ACC0012,PER0012,2026-05-20,Service,Service Question,Email,Service Question,Customer asked about service at the premise.,USR014,Genesys
+CN000025,ACC0013,PER0013,2026-03-16,Service,Service Question,Phone,Service Question,Customer asked about service at the premise.,USR014,Genesys
+CN000026,ACC0013,PER0013,2026-05-25,Meter,Meter Inquiry,Email,Meter Inquiry,Customer asked about meter reading and meter location.,USR015,Genesys
+CN000027,ACC0014,PER0014,2026-03-21,Meter,Meter Inquiry,Phone,Meter Inquiry,Customer asked about meter reading and meter location.,USR015,Genesys
+CN000028,ACC0014,PER0014,2026-05-30,Billing,General Billing,Email,General Billing,Customer asked for explanation of current bill and charges.,USR001,Genesys
+CN000029,ACC0015,PER0015,2026-03-26,Billing,General Billing,Phone,General Billing,Customer asked for explanation of current bill and charges.,USR001,Genesys
+CN000030,ACC0015,PER0015,2026-06-04,Usage,High Usage,Email,High Usage,Reviewed recent water consumption and discussed possible seasonal usage.,USR002,Genesys
+CN000031,ACC0016,PER0016,2026-03-31,Usage,High Usage,Phone,High Usage,Reviewed recent water consumption and discussed possible seasonal usage.,USR002,Genesys
+CN000032,ACC0016,PER0016,2026-06-09,Payment,Payment Status,Email,Payment Status,Customer requested confirmation that recent payment posted.,USR003,Genesys
+CN000033,ACC0017,PER0017,2026-04-05,Payment,Payment Status,Phone,Payment Status,Customer requested confirmation that recent payment posted.,USR003,Genesys
+CN000034,ACC0017,PER0017,2026-06-14,Service,Service Question,Email,Service Question,Customer asked about service at the premise.,USR004,Genesys
+CN000035,ACC0018,PER0018,2026-04-10,Service,Service Question,Phone,Service Question,Customer asked about service at the premise.,USR004,Genesys
+CN000036,ACC0018,PER0018,2026-06-19,Meter,Meter Inquiry,Email,Meter Inquiry,Customer asked about meter reading and meter location.,USR005,Genesys
+CN000037,ACC0019,PER0019,2026-04-15,Meter,Meter Inquiry,Phone,Meter Inquiry,Customer asked about meter reading and meter location.,USR005,Genesys
+CN000038,ACC0019,PER0019,2026-06-24,Billing,General Billing,Email,General Billing,Customer asked for explanation of current bill and charges.,USR006,Genesys
+CN000039,ACC0020,PER0020,2026-04-20,Billing,General Billing,Phone,General Billing,Customer asked for explanation of current bill and charges.,USR006,Genesys
+CN000040,ACC0020,PER0020,2026-06-29,Usage,High Usage,Email,High Usage,Reviewed recent water consumption and discussed possible seasonal usage.,USR007,Genesys
+CN000041,ACC0021,PER0021,2026-04-25,Usage,High Usage,Phone,High Usage,Reviewed recent water consumption and discussed possible seasonal usage.,USR007,Genesys
+CN000042,ACC0021,PER0021,2026-07-04,Payment,Payment Status,Email,Payment Status,Customer requested confirmation that recent payment posted.,USR008,Genesys
+CN000043,ACC0022,PER0022,2026-04-30,Payment,Payment Status,Phone,Payment Status,Customer requested confirmation that recent payment posted.,USR008,Genesys
+CN000044,ACC0022,PER0022,2026-07-09,Service,Service Question,Email,Service Question,Customer asked about service at the premise.,USR009,Genesys
+CN000045,ACC0023,PER0023,2026-05-05,Service,Service Question,Phone,Service Question,Customer asked about service at the premise.,USR009,Genesys
+CN000046,ACC0023,PER0023,2026-07-14,Meter,Meter Inquiry,Email,Meter Inquiry,Customer asked about meter reading and meter location.,USR010,Genesys
+CN000047,ACC0024,PER0024,2026-05-10,Meter,Meter Inquiry,Phone,Meter Inquiry,Customer asked about meter reading and meter location.,USR010,Genesys
+CN000048,ACC0024,PER0024,2026-07-19,Billing,General Billing,Email,General Billing,Customer asked for explanation of current bill and charges.,USR011,Genesys
+CN000049,ACC0025,PER0025,2026-05-15,Billing,General Billing,Phone,General Billing,Customer asked for explanation of current bill and charges.,USR011,Genesys
+CN000050,ACC0025,PER0025,2026-07-24,Usage,High Usage,Email,High Usage,Reviewed recent water consumption and discussed possible seasonal usage.,USR012,Genesys
+CN000051,ACC0026,PER0026,2026-05-20,Usage,High Usage,Phone,High Usage,Reviewed recent water consumption and discussed possible seasonal usage.,USR012,Genesys
+CN000052,ACC0026,PER0026,2026-07-29,Payment,Payment Status,Email,Payment Status,Customer requested confirmation that recent payment posted.,USR013,Genesys
+CN000053,ACC0027,PER0027,2026-05-25,Payment,Payment Status,Phone,Payment Status,Customer requested confirmation that recent payment posted.,USR013,Genesys
+CN000054,ACC0027,PER0027,2026-08-03,Service,Service Question,Email,Service Question,Customer asked about service at the premise.,USR014,Genesys
+CN000055,ACC0028,PER0028,2026-05-30,Service,Service Question,Phone,Service Question,Customer asked about service at the premise.,USR014,Genesys
+CN000056,ACC0028,PER0028,2026-08-08,Meter,Meter Inquiry,Email,Meter Inquiry,Customer asked about meter reading and meter location.,USR015,Genesys
+CN000057,ACC0029,PER0029,2026-06-04,Meter,Meter Inquiry,Phone,Meter Inquiry,Customer asked about meter reading and meter location.,USR015,Genesys
+CN000058,ACC0029,PER0029,2026-08-13,Billing,General Billing,Email,General Billing,Customer asked for explanation of current bill and charges.,USR001,Genesys
+CN000059,ACC0030,PER0030,2026-06-09,Billing,General Billing,Phone,General Billing,Customer asked for explanation of current bill and charges.,USR001,Genesys
+CN000060,ACC0030,PER0030,2026-08-18,Usage,High Usage,Email,High Usage,Reviewed recent water consumption and discussed possible seasonal usage.,USR002,Genesys
+CN000061,ACC0031,PER0031,2026-06-14,Usage,High Usage,Phone,High Usage,Reviewed recent water consumption and discussed possible seasonal usage.,USR002,Genesys
+CN000062,ACC0031,PER0031,2026-08-23,Payment,Payment Status,Email,Payment Status,Customer requested confirmation that recent payment posted.,USR003,Genesys
+CN000063,ACC0032,PER0032,2026-06-19,Payment,Payment Status,Phone,Payment Status,Customer requested confirmation that recent payment posted.,USR003,Genesys
+CN000064,ACC0032,PER0032,2026-08-28,Service,Service Question,Email,Service Question,Customer asked about service at the premise.,USR004,Genesys
+CN000065,ACC0033,PER0033,2026-06-24,Service,Service Question,Phone,Service Question,Customer asked about service at the premise.,USR004,Genesys
+CN000066,ACC0033,PER0033,2026-09-02,Meter,Meter Inquiry,Email,Meter Inquiry,Customer asked about meter reading and meter location.,USR005,Genesys
+CN000067,ACC0034,PER0034,2026-06-29,Meter,Meter Inquiry,Phone,Meter Inquiry,Customer asked about meter reading and meter location.,USR005,Genesys
+CN000068,ACC0034,PER0034,2026-01-10,Billing,General Billing,Email,General Billing,Customer asked for explanation of current bill and charges.,USR006,Genesys
+CN000069,ACC0035,PER0035,2026-07-04,Billing,General Billing,Phone,General Billing,Customer asked for explanation of current bill and charges.,USR006,Genesys
+CN000070,ACC0035,PER0035,2026-01-15,Usage,High Usage,Email,High Usage,Reviewed recent water consumption and discussed possible seasonal usage.,USR007,Genesys
+CN000071,ACC0036,PER0036,2026-07-09,Usage,High Usage,Phone,High Usage,Reviewed recent water consumption and discussed possible seasonal usage.,USR007,Genesys
+CN000072,ACC0036,PER0036,2026-01-20,Payment,Payment Status,Email,Payment Status,Customer requested confirmation that recent payment posted.,USR008,Genesys
+CN000073,ACC0037,PER0037,2026-07-14,Payment,Payment Status,Phone,Payment Status,Customer requested confirmation that recent payment posted.,USR008,Genesys
+CN000074,ACC0037,PER0037,2026-01-25,Service,Service Question,Email,Service Question,Customer asked about service at the premise.,USR009,Genesys
+CN000075,ACC0038,PER0038,2026-07-19,Service,Service Question,Phone,Service Question,Customer asked about service at the premise.,USR009,Genesys
+CN000076,ACC0038,PER0038,2026-01-30,Meter,Meter Inquiry,Email,Meter Inquiry,Customer asked about meter reading and meter location.,USR010,Genesys
+CN000077,ACC0039,PER0039,2026-07-24,Meter,Meter Inquiry,Phone,Meter Inquiry,Customer asked about meter reading and meter location.,USR010,Genesys
+CN000078,ACC0039,PER0039,2026-02-04,Billing,General Billing,Email,General Billing,Customer asked for explanation of current bill and charges.,USR011,Genesys
+CN000079,ACC0040,PER0040,2026-07-29,Billing,General Billing,Phone,General Billing,Customer asked for explanation of current bill and charges.,USR011,Genesys
+CN000080,ACC0040,PER0040,2026-02-09,Usage,High Usage,Email,High Usage,Reviewed recent water consumption and discussed possible seasonal usage.,USR012,Genesys
+CN000081,ACC0041,PER0041,2026-08-03,Usage,High Usage,Phone,High Usage,Reviewed recent water consumption and discussed possible seasonal usage.,USR012,Genesys
+CN000082,ACC0041,PER0041,2026-02-14,Payment,Payment Status,Email,Payment Status,Customer requested confirmation that recent payment posted.,USR013,Genesys
+CN000083,ACC0042,PER0042,2026-08-08,Payment,Payment Status,Phone,Payment Status,Customer requested confirmation that recent payment posted.,USR013,Genesys
+CN000084,ACC0042,PER0042,2026-02-19,Service,Service Question,Email,Service Question,Customer asked about service at the premise.,USR014,Genesys
+CN000085,ACC0043,PER0043,2026-08-13,Service,Service Question,Phone,Service Question,Customer asked about service at the premise.,USR014,Genesys
+CN000086,ACC0043,PER0043,2026-02-24,Meter,Meter Inquiry,Email,Meter Inquiry,Customer asked about meter reading and meter location.,USR015,Genesys
+CN000087,ACC0044,PER0044,2026-08-18,Meter,Meter Inquiry,Phone,Meter Inquiry,Customer asked about meter reading and meter location.,USR015,Genesys
+CN000088,ACC0044,PER0044,2026-03-01,Billing,General Billing,Email,General Billing,Customer asked for explanation of current bill and charges.,USR001,Genesys
+CN000089,ACC0045,PER0045,2026-08-23,Billing,General Billing,Phone,General Billing,Customer asked for explanation of current bill and charges.,USR001,Genesys
+CN000090,ACC0045,PER0045,2026-03-06,Usage,High Usage,Email,High Usage,Reviewed recent water consumption and discussed possible seasonal usage.,USR002,Genesys
+CN000091,ACC0046,PER0046,2026-08-28,Usage,High Usage,Phone,High Usage,Reviewed recent water consumption and discussed possible seasonal usage.,USR002,Genesys
+CN000092,ACC0046,PER0046,2026-03-11,Payment,Payment Status,Email,Payment Status,Customer requested confirmation that recent payment posted.,USR003,Genesys
+CN000093,ACC0047,PER0047,2026-09-02,Payment,Payment Status,Phone,Payment Status,Customer requested confirmation that recent payment posted.,USR003,Genesys
+CN000094,ACC0047,PER0047,2026-03-16,Service,Service Question,Email,Service Question,Customer asked about service at the premise.,USR004,Genesys
+CN000095,ACC0048,PER0048,2026-01-10,Service,Service Question,Phone,Service Question,Customer asked about service at the premise.,USR004,Genesys
+CN000096,ACC0048,PER0048,2026-03-21,Meter,Meter Inquiry,Email,Meter Inquiry,Customer asked about meter reading and meter location.,USR005,Genesys
+CN000097,ACC0049,PER0049,2026-01-15,Meter,Meter Inquiry,Phone,Meter Inquiry,Customer asked about meter reading and meter location.,USR005,Genesys
+CN000098,ACC0049,PER0049,2026-03-26,Billing,General Billing,Email,General Billing,Customer asked for explanation of current bill and charges.,USR006,Genesys
+CN000099,ACC0050,PER0050,2026-01-20,Billing,General Billing,Phone,General Billing,Customer asked for explanation of current bill and charges.,USR006,Genesys
+CN000100,ACC0050,PER0050,2026-03-31,Usage,High Usage,Email,High Usage,Reviewed recent water consumption and discussed possible seasonal usage.,USR007,Genesys
+CN000101,ACC0051,PER0051,2026-01-25,Usage,High Usage,Phone,High Usage,Reviewed recent water consumption and discussed possible seasonal usage.,USR007,Genesys
+CN000102,ACC0051,PER0051,2026-04-05,Payment,Payment Status,Email,Payment Status,Customer requested confirmation that recent payment posted.,USR008,Genesys
+CN000103,ACC0052,PER0052,2026-01-30,Payment,Payment Status,Phone,Payment Status,Customer requested confirmation that recent payment posted.,USR008,Genesys
+CN000104,ACC0052,PER0052,2026-04-10,Service,Service Question,Email,Service Question,Customer asked about service at the premise.,USR009,Genesys
+CN000105,ACC0053,PER0053,2026-02-04,Service,Service Question,Phone,Service Question,Customer asked about service at the premise.,USR009,Genesys
+CN000106,ACC0053,PER0053,2026-04-15,Meter,Meter Inquiry,Email,Meter Inquiry,Customer asked about meter reading and meter location.,USR010,Genesys
+CN000107,ACC0054,PER0054,2026-02-09,Meter,Meter Inquiry,Phone,Meter Inquiry,Customer asked about meter reading and meter location.,USR010,Genesys
+CN000108,ACC0054,PER0054,2026-04-20,Billing,General Billing,Email,General Billing,Customer asked for explanation of current bill and charges.,USR011,Genesys
+CN000109,ACC0055,PER0055,2026-02-14,Billing,General Billing,Phone,General Billing,Customer asked for explanation of current bill and charges.,USR011,Genesys
+CN000110,ACC0055,PER0055,2026-04-25,Usage,High Usage,Email,High Usage,Reviewed recent water consumption and discussed possible seasonal usage.,USR012,Genesys
+CN000111,ACC0056,PER0056,2026-02-19,Usage,High Usage,Phone,High Usage,Reviewed recent water consumption and discussed possible seasonal usage.,USR012,Genesys
+CN000112,ACC0056,PER0056,2026-04-30,Payment,Payment Status,Email,Payment Status,Customer requested confirmation that recent payment posted.,USR013,Genesys
+CN000113,ACC0057,PER0057,2026-02-24,Payment,Payment Status,Phone,Payment Status,Customer requested confirmation that recent payment posted.,USR013,Genesys
+CN000114,ACC0057,PER0057,2026-05-05,Service,Service Question,Email,Service Question,Customer asked about service at the premise.,USR014,Genesys
+CN000115,ACC0058,PER0058,2026-03-01,Service,Service Question,Phone,Service Question,Customer asked about service at the premise.,USR014,Genesys
+CN000116,ACC0058,PER0058,2026-05-10,Meter,Meter Inquiry,Email,Meter Inquiry,Customer asked about meter reading and meter location.,USR015,Genesys
+CN000117,ACC0059,PER0059,2026-03-06,Meter,Meter Inquiry,Phone,Meter Inquiry,Customer asked about meter reading and meter location.,USR015,Genesys
+CN000118,ACC0059,PER0059,2026-05-15,Billing,General Billing,Email,General Billing,Customer asked for explanation of current bill and charges.,USR001,Genesys
+CN000119,ACC0060,PER0060,2026-03-11,Billing,General Billing,Phone,General Billing,Customer asked for explanation of current bill and charges.,USR001,Genesys
+CN000120,ACC0060,PER0060,2026-05-20,Usage,High Usage,Email,High Usage,Reviewed recent water consumption and discussed possible seasonal usage.,USR002,Genesys
+CN000121,ACC0001,PER0001,2026-07-14,Usage,High Usage,Phone,Summer irrigation usage,Customer previously called about increased outdoor irrigation usage. No leak was confirmed at that time.,USR004,Genesys
+CN000122,ACC0005,PER0005,2026-08-28,Service,Transfer Service,Email,Upcoming move,Customer requested information about transferring service to a new tenant effective September 15.,USR006,Genesys

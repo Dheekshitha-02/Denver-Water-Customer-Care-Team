@@ -1,0 +1,6 @@
+queue_id,queue_name,description,active
+Q001,Customer Care,General residential and commercial customer care,True
+Q002,Water Sales,Water sales and hydrant-related inquiries,True
+Q003,BST,Business support team interactions,True
+Q004,Key Accounts,Key and strategic customer support,True
+Q005,Dispatch,Field dispatch and urgent service coordination,True

@@ -1,0 +1,76 @@
+person_id,first_name,last_name,person_type,phone,alternate_phone,email,preferred_contact_method,mailing_address,city,state,zip_code,active
+PER0001,John,Anderson,Residential,303-555-1001,,john.anderson@example.com,Phone,107 Broadway,Lakewood,CO,80203,True
+PER0002,Maria,Garcia,Residential,303-555-1002,,maria.garcia@example.com,Email,114 Colfax Ave,Wheat Ridge,CO,80204,True
+PER0003,David,Martinez,Residential,303-555-1003,,david.martinez@example.com,SMS,121 Speer Blvd,Englewood,CO,80205,True
+PER0004,Emily,Johnson,Residential,303-555-1004,720-555-2004,emily.johnson@example.com,Email,128 Federal Blvd,Arvada,CO,80206,True
+PER0005,Michael,Brown,Residential,303-555-1005,,michael.brown@example.com,Phone,135 York St,Denver,CO,80207,True
+PER0006,Sarah,Davis,Residential,303-555-1006,,sarah.davis@example.com,Email,142 Downing St,Lakewood,CO,80209,True
+PER0007,Robert,Wilson,Residential,303-555-1007,,robert.wilson@example.com,SMS,149 Pearl St,Wheat Ridge,CO,80210,True
+PER0008,Linda,Miller,Residential,303-555-1008,720-555-2008,linda.miller@example.com,Email,156 Logan St,Englewood,CO,80211,True
+PER0009,James,Moore,Residential,303-555-1009,,james.moore@example.com,Phone,163 Grant St,Arvada,CO,80212,True
+PER0010,Patricia,Taylor,Residential,303-555-1010,,patricia.taylor@example.com,Email,170 Sherman St,Denver,CO,80218,True
+PER0011,Daniel,Thomas,Residential,303-555-1011,,daniel.thomas@example.com,SMS,177 Clayton St,Lakewood,CO,80220,True
+PER0012,Jennifer,Jackson,Residential,303-555-1012,720-555-2012,jennifer.jackson@example.com,Email,184 Steele St,Wheat Ridge,CO,80223,True
+PER0013,Thomas,White,Residential,303-555-1013,,thomas.white@example.com,Phone,191 Monaco Pkwy,Englewood,CO,80224,True
+PER0014,Karen,Harris,Residential,303-555-1014,,karen.harris@example.com,Email,198 Quebec St,Arvada,CO,80202,True
+PER0015,Anthony,Martin,Residential,303-555-1015,,anthony.martin@example.com,SMS,205 Havana St,Denver,CO,80203,True
+PER0016,Lisa,Thompson,Residential,303-555-1016,720-555-2016,lisa.thompson@example.com,Email,212 Evans Ave,Lakewood,CO,80204,True
+PER0017,Mark,Robinson,Residential,303-555-1017,,mark.robinson@example.com,Phone,219 Alameda Ave,Wheat Ridge,CO,80205,True
+PER0018,Nancy,Clark,Residential,303-555-1018,,nancy.clark@example.com,Email,226 6th Ave,Englewood,CO,80206,True
+PER0019,Steven,Lewis,Residential,303-555-1019,,steven.lewis@example.com,SMS,233 17th Ave,Arvada,CO,80207,True
+PER0020,Betty,Lee,Residential,303-555-1020,720-555-2020,betty.lee@example.com,Email,240 38th Ave,Denver,CO,80209,True
+PER0021,Carlos,Walker,Residential,303-555-1021,,carlos.walker@example.com,Phone,247 Washington St,Lakewood,CO,80210,True
+PER0022,Angela,Hall,Residential,303-555-1022,,angela.hall@example.com,Email,254 Kalamath St,Wheat Ridge,CO,80211,True
+PER0023,Kevin,Allen,Residential,303-555-1023,,kevin.allen@example.com,SMS,261 Zuni St,Englewood,CO,80212,True
+PER0024,Michelle,Young,Residential,303-555-1024,720-555-2024,michelle.young@example.com,Email,268 Lincoln St,Arvada,CO,80218,True
+PER0025,Brian,King,Residential,303-555-1025,,brian.king@example.com,Phone,275 Broadway,Denver,CO,80220,True
+PER0026,Donna,Wright,Residential,303-555-1026,,donna.wright@example.com,Email,282 Colfax Ave,Lakewood,CO,80223,True
+PER0027,Jose,Lopez,Residential,303-555-1027,,jose.lopez@example.com,SMS,289 Speer Blvd,Wheat Ridge,CO,80224,True
+PER0028,Kimberly,Hill,Residential,303-555-1028,720-555-2028,kimberly.hill@example.com,Email,296 Federal Blvd,Englewood,CO,80202,True
+PER0029,Jason,Scott,Residential,303-555-1029,,jason.scott@example.com,Phone,303 York St,Arvada,CO,80203,True
+PER0030,Sandra,Green,Residential,303-555-1030,,sandra.green@example.com,Email,310 Downing St,Denver,CO,80204,True
+PER0031,Eric,Adams,Residential,303-555-1031,,eric.adams@example.com,SMS,317 Pearl St,Lakewood,CO,80205,True
+PER0032,Rebecca,Baker,Residential,303-555-1032,720-555-2032,rebecca.baker@example.com,Email,324 Logan St,Wheat Ridge,CO,80206,True
+PER0033,Adam,Nelson,Residential,303-555-1033,,adam.nelson@example.com,Phone,331 Grant St,Englewood,CO,80207,True
+PER0034,Laura,Carter,Residential,303-555-1034,,laura.carter@example.com,Email,338 Sherman St,Arvada,CO,80209,True
+PER0035,Nathan,Mitchell,Residential,303-555-1035,,nathan.mitchell@example.com,SMS,345 Clayton St,Denver,CO,80210,True
+PER0036,Monica,Perez,Residential,303-555-1036,720-555-2036,monica.perez@example.com,Email,352 Steele St,Lakewood,CO,80211,True
+PER0037,Ryan,Roberts,Residential,303-555-1037,,ryan.roberts@example.com,Phone,359 Monaco Pkwy,Wheat Ridge,CO,80212,True
+PER0038,Vanessa,Turner,Residential,303-555-1038,,vanessa.turner@example.com,Email,366 Quebec St,Englewood,CO,80218,True
+PER0039,George,Phillips,Residential,303-555-1039,,george.phillips@example.com,SMS,373 Havana St,Arvada,CO,80220,True
+PER0040,Diana,Campbell,Residential,303-555-1040,720-555-2040,diana.campbell@example.com,Email,380 Evans Ave,Denver,CO,80223,True
+PER0041,Samuel,Parker,Residential,303-555-1041,,samuel.parker@example.com,Phone,387 Alameda Ave,Lakewood,CO,80224,True
+PER0042,Priya,Evans,Residential,303-555-1042,,priya.evans@example.com,Email,394 6th Ave,Wheat Ridge,CO,80202,True
+PER0043,Noah,Edwards,Residential,303-555-1043,,noah.edwards@example.com,SMS,401 17th Ave,Englewood,CO,80203,True
+PER0044,Alicia,Collins,Residential,303-555-1044,720-555-2044,alicia.collins@example.com,Email,408 38th Ave,Arvada,CO,80204,True
+PER0045,Ethan,Stewart,Residential,303-555-1045,,ethan.stewart@example.com,Phone,415 Washington St,Denver,CO,80205,True
+PER0046,Grace,Sanchez,Residential,303-555-1046,,grace.sanchez@example.com,Email,422 Kalamath St,Lakewood,CO,80206,True
+PER0047,Luis,Morris,Residential,303-555-1047,,luis.morris@example.com,SMS,429 Zuni St,Wheat Ridge,CO,80207,True
+PER0048,Megan,Rogers,Residential,303-555-1048,720-555-2048,megan.rogers@example.com,Email,436 Lincoln St,Englewood,CO,80209,True
+PER0049,Omar,Reed,Residential,303-555-1049,,omar.reed@example.com,Phone,443 Broadway,Arvada,CO,80210,True
+PER0050,Rachel,Cook,Residential,303-555-1050,,rachel.cook@example.com,Email,450 Colfax Ave,Denver,CO,80211,True
+PER0051,Henry,Morgan,Residential,303-555-1051,,henry.morgan@example.com,SMS,457 Speer Blvd,Lakewood,CO,80212,True
+PER0052,Sophia,Bell,Residential,303-555-1052,720-555-2052,sophia.bell@example.com,Email,464 Federal Blvd,Wheat Ridge,CO,80218,True
+PER0053,Victor,Murphy,Residential,303-555-1053,,victor.murphy@example.com,Phone,471 York St,Englewood,CO,80220,True
+PER0054,Chloe,Bailey,Residential,303-555-1054,,chloe.bailey@example.com,Email,478 Downing St,Arvada,CO,80223,True
+PER0055,Isaac,Rivera,Residential,303-555-1055,,isaac.rivera@example.com,SMS,485 Pearl St,Denver,CO,80224,True
+PER0056,Natalie,Cooper,Residential,303-555-1056,720-555-2056,natalie.cooper@example.com,Email,492 Logan St,Lakewood,CO,80202,True
+PER0057,Miguel,Richardson,Residential,303-555-1057,,miguel.richardson@example.com,Phone,499 Grant St,Wheat Ridge,CO,80203,True
+PER0058,Hannah,Cox,Residential,303-555-1058,,hannah.cox@example.com,Email,506 Sherman St,Englewood,CO,80204,True
+PER0059,Aaron,Howard,Residential,303-555-1059,,aaron.howard@example.com,SMS,513 Clayton St,Arvada,CO,80205,True
+PER0060,Julia,Ward,Residential,303-555-1060,720-555-2060,julia.ward@example.com,Email,520 Steele St,Denver,CO,80206,True
+PER0061,Peter,Torres,Residential,303-555-1061,,peter.torres@example.com,Phone,527 Monaco Pkwy,Lakewood,CO,80207,True
+PER0062,Olivia,Peterson,Residential,303-555-1062,,olivia.peterson@example.com,Email,534 Quebec St,Wheat Ridge,CO,80209,True
+PER0063,Andre,Gray,Residential,303-555-1063,,andre.gray@example.com,SMS,541 Havana St,Englewood,CO,80210,True
+PER0064,Samantha,Ramirez,Residential,303-555-1064,720-555-2064,samantha.ramirez@example.com,Email,548 Evans Ave,Arvada,CO,80211,True
+PER0065,Luke,James,Residential,303-555-1065,,luke.james@example.com,Phone,555 Alameda Ave,Denver,CO,80212,True
+PER0066,Isabella,Watson,Residential,303-555-1066,,isabella.watson@example.com,Email,562 6th Ave,Lakewood,CO,80218,True
+PER0067,Marcus,Brooks,Residential,303-555-1067,,marcus.brooks@example.com,SMS,569 17th Ave,Wheat Ridge,CO,80220,True
+PER0068,Tina,Kelly,Residential,303-555-1068,720-555-2068,tina.kelly@example.com,Email,576 38th Ave,Englewood,CO,80223,True
+PER0069,Diego,Sanders,Business Contact,303-555-1069,,diego.sanders@example.com,Phone,583 Washington St,Arvada,CO,80224,True
+PER0070,Erin,Price,Business Contact,303-555-1070,,erin.price@example.com,Email,590 Kalamath St,Denver,CO,80202,True
+PER0071,Caleb,Bennett,Business Contact,303-555-1071,,caleb.bennett@example.com,SMS,597 Zuni St,Lakewood,CO,80203,True
+PER0072,Maya,Wood,Business Contact,303-555-1072,720-555-2072,maya.wood@example.com,Email,604 Lincoln St,Wheat Ridge,CO,80204,True
+PER0073,Jordan,Barnes,Business Contact,303-555-1073,,jordan.barnes@example.com,Phone,611 Broadway,Englewood,CO,80205,True
+PER0074,Leah,Ross,Business Contact,303-555-1074,,leah.ross@example.com,Email,618 Colfax Ave,Arvada,CO,80206,True
+PER0075,Xavier,Henderson,Business Contact,303-555-1075,,xavier.henderson@example.com,SMS,625 Speer Blvd,Denver,CO,80207,True

@@ -1,0 +1,61 @@
+premise_id,premise_number,account_id,service_address,city,state,zip_code,property_type,service_district,service_status,latitude,longitude
+PREM0001,P0000001,ACC0001,1011 Federal Blvd,Lakewood,CO,80205,Single Family,North,Active,39.658,-105.071
+PREM0002,P0000002,ACC0002,1022 York St,Wheat Ridge,CO,80206,Single Family,South,Active,39.666,-105.062
+PREM0003,P0000003,ACC0003,1033 Downing St,Englewood,CO,80207,Single Family,East,Active,39.674,-105.053
+PREM0004,P0000004,ACC0004,1044 Pearl St,Arvada,CO,80209,Single Family,West,Active,39.682,-105.044
+PREM0005,P0000005,ACC0005,1055 Logan St,Denver,CO,80210,Multi-Family,Central,Active,39.69,-105.035
+PREM0006,P0000006,ACC0006,1066 Grant St,Lakewood,CO,80211,Single Family,North,Active,39.698,-105.026
+PREM0007,P0000007,ACC0007,1077 Sherman St,Wheat Ridge,CO,80212,Single Family,South,Active,39.706,-105.017
+PREM0008,P0000008,ACC0008,1088 Clayton St,Englewood,CO,80218,Single Family,East,Active,39.714,-105.008
+PREM0009,P0000009,ACC0009,1099 Steele St,Arvada,CO,80220,Single Family,West,Active,39.722,-104.999
+PREM0010,P0000010,ACC0010,1110 Monaco Pkwy,Denver,CO,80223,Multi-Family,Central,Active,39.73,-104.99
+PREM0011,P0000011,ACC0011,1121 Quebec St,Lakewood,CO,80224,Single Family,North,Active,39.738,-104.981
+PREM0012,P0000012,ACC0012,1132 Havana St,Wheat Ridge,CO,80202,Single Family,South,Active,39.746,-104.972
+PREM0013,P0000013,ACC0013,1143 Evans Ave,Englewood,CO,80203,Single Family,East,Active,39.754,-104.963
+PREM0014,P0000014,ACC0014,1154 Alameda Ave,Arvada,CO,80204,Single Family,West,Active,39.762,-104.954
+PREM0015,P0000015,ACC0015,1165 6th Ave,Denver,CO,80205,Multi-Family,Central,Active,39.77,-105.08
+PREM0016,P0000016,ACC0016,1176 17th Ave,Lakewood,CO,80206,Single Family,North,Active,39.778,-105.071
+PREM0017,P0000017,ACC0017,1187 38th Ave,Wheat Ridge,CO,80207,Single Family,South,Active,39.786,-105.062
+PREM0018,P0000018,ACC0018,1198 Washington St,Englewood,CO,80209,Single Family,East,Active,39.794,-105.053
+PREM0019,P0000019,ACC0019,1209 Kalamath St,Arvada,CO,80210,Single Family,West,Active,39.802,-105.044
+PREM0020,P0000020,ACC0020,1220 Zuni St,Denver,CO,80211,Multi-Family,Central,Active,39.65,-105.035
+PREM0021,P0000021,ACC0021,1231 Lincoln St,Lakewood,CO,80212,Single Family,North,Active,39.658,-105.026
+PREM0022,P0000022,ACC0022,1242 Broadway,Wheat Ridge,CO,80218,Single Family,South,Active,39.666,-105.017
+PREM0023,P0000023,ACC0023,1253 Colfax Ave,Englewood,CO,80220,Single Family,East,Active,39.674,-105.008
+PREM0024,P0000024,ACC0024,1264 Speer Blvd,Arvada,CO,80223,Single Family,West,Active,39.682,-104.999
+PREM0025,P0000025,ACC0025,1275 Federal Blvd,Denver,CO,80224,Multi-Family,Central,Active,39.69,-104.99
+PREM0026,P0000026,ACC0026,1286 York St,Lakewood,CO,80202,Single Family,North,Active,39.698,-104.981
+PREM0027,P0000027,ACC0027,1297 Downing St,Wheat Ridge,CO,80203,Single Family,South,Active,39.706,-104.972
+PREM0028,P0000028,ACC0028,1308 Pearl St,Englewood,CO,80204,Single Family,East,Active,39.714,-104.963
+PREM0029,P0000029,ACC0029,1319 Logan St,Arvada,CO,80205,Single Family,West,Active,39.722,-104.954
+PREM0030,P0000030,ACC0030,1330 Grant St,Denver,CO,80206,Multi-Family,Central,Active,39.73,-105.08
+PREM0031,P0000031,ACC0031,1341 Sherman St,Lakewood,CO,80207,Single Family,North,Active,39.738,-105.071
+PREM0032,P0000032,ACC0032,1352 Clayton St,Wheat Ridge,CO,80209,Single Family,South,Active,39.746,-105.062
+PREM0033,P0000033,ACC0033,1363 Steele St,Englewood,CO,80210,Single Family,East,Active,39.754,-105.053
+PREM0034,P0000034,ACC0034,1374 Monaco Pkwy,Arvada,CO,80211,Single Family,West,Active,39.762,-105.044
+PREM0035,P0000035,ACC0035,1385 Quebec St,Denver,CO,80212,Multi-Family,Central,Active,39.77,-105.035
+PREM0036,P0000036,ACC0036,1396 Havana St,Lakewood,CO,80218,Single Family,North,Active,39.778,-105.026
+PREM0037,P0000037,ACC0037,1407 Evans Ave,Wheat Ridge,CO,80220,Single Family,South,Active,39.786,-105.017
+PREM0038,P0000038,ACC0038,1418 Alameda Ave,Englewood,CO,80223,Single Family,East,Active,39.794,-105.008
+PREM0039,P0000039,ACC0039,1429 6th Ave,Arvada,CO,80224,Single Family,West,Active,39.802,-104.999
+PREM0040,P0000040,ACC0040,1440 17th Ave,Denver,CO,80202,Multi-Family,Central,Active,39.65,-104.99
+PREM0041,P0000041,ACC0041,1451 38th Ave,Lakewood,CO,80203,Single Family,North,Active,39.658,-104.981
+PREM0042,P0000042,ACC0042,1462 Washington St,Wheat Ridge,CO,80204,Single Family,South,Active,39.666,-104.972
+PREM0043,P0000043,ACC0043,1473 Kalamath St,Englewood,CO,80205,Single Family,East,Active,39.674,-104.963
+PREM0044,P0000044,ACC0044,1484 Zuni St,Arvada,CO,80206,Single Family,West,Active,39.682,-104.954
+PREM0045,P0000045,ACC0045,1495 Lincoln St,Denver,CO,80207,Multi-Family,Central,Active,39.69,-105.08
+PREM0046,P0000046,ACC0046,1506 Broadway,Lakewood,CO,80209,Single Family,North,Active,39.698,-105.071
+PREM0047,P0000047,ACC0047,1517 Colfax Ave,Wheat Ridge,CO,80210,Single Family,South,Inactive,39.706,-105.062
+PREM0048,P0000048,ACC0048,1528 Speer Blvd,Englewood,CO,80211,Single Family,East,Active,39.714,-105.053
+PREM0049,P0000049,ACC0049,1539 Federal Blvd,Arvada,CO,80212,Single Family,West,Active,39.722,-105.044
+PREM0050,P0000050,ACC0050,1550 York St,Denver,CO,80218,Multi-Family,Central,Active,39.73,-105.035
+PREM0051,P0000051,ACC0051,1561 Downing St,Lakewood,CO,80220,Single Family,North,Active,39.738,-105.026
+PREM0052,P0000052,ACC0052,1572 Pearl St,Wheat Ridge,CO,80223,Single Family,South,Active,39.746,-105.017
+PREM0053,P0000053,ACC0053,1583 Logan St,Englewood,CO,80224,Single Family,East,Active,39.754,-105.008
+PREM0054,P0000054,ACC0054,1594 Grant St,Arvada,CO,80202,Single Family,West,Active,39.762,-104.999
+PREM0055,P0000055,ACC0055,1605 Sherman St,Denver,CO,80203,Multi-Family,Central,Active,39.77,-104.99
+PREM0056,P0000056,ACC0056,1616 Clayton St,Lakewood,CO,80204,Single Family,North,Active,39.778,-104.981
+PREM0057,P0000057,ACC0057,1627 Steele St,Wheat Ridge,CO,80205,Single Family,South,Active,39.786,-104.972
+PREM0058,P0000058,ACC0058,1638 Monaco Pkwy,Englewood,CO,80206,Single Family,East,Inactive,39.794,-104.963
+PREM0059,P0000059,ACC0059,1649 Quebec St,Arvada,CO,80207,Single Family,West,Active,39.802,-104.954
+PREM0060,P0000060,ACC0060,1660 Havana St,Denver,CO,80209,Multi-Family,Central,Active,39.65,-105.08

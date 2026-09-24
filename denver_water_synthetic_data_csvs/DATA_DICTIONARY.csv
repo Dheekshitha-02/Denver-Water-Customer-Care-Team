@@ -1,0 +1,20 @@
+file_name,target_table,purpose
+genesys_users.csv,genesys_mock.users,Synthetic Genesys CSR/supervisor users.
+genesys_queues.csv,genesys_mock.queues,Five synthetic lines of business/queues.
+genesys_wrap_up_codes.csv,genesys_mock.wrap_up_codes,POC-only wrap-up taxonomy; not claimed as Denver Water's real codes.
+genesys_interactions.csv,genesys_mock.interactions,Voice/email/chat interaction history tied to synthetic CC&B customers by phone/email.
+genesys_participants.csv,genesys_mock.participants,Customer and agent participants for each interaction.
+genesys_transcripts.csv,genesys_mock.transcripts,Simulated transcript/message stream used to demonstrate real-time Agent Assist.
+ccb_persons.csv,ccb_mock.persons,Synthetic people/customer identities.
+ccb_accounts.csv,ccb_mock.accounts,Synthetic billing accounts and balances.
+ccb_account_persons.csv,ccb_mock.account_persons,Relationships between persons and accounts.
+ccb_premises.csv,ccb_mock.premises,Service properties/addresses.
+ccb_service_points.csv,ccb_mock.service_points,Metered service/tap points.
+ccb_meters.csv,ccb_mock.meters,Meter/equipment details.
+ccb_bills.csv,ccb_mock.bills,12 months of synthetic billing history per account.
+ccb_payments.csv,ccb_mock.payments,Non-sensitive payment history only; no card/bank credentials.
+ccb_consumption.csv,ccb_mock.consumption,12 months of water consumption per account.
+ccb_contact_notes.csv,ccb_mock.contact_notes,Historical customer contact notes; target for simulated Phase 2 write-back.
+ccb_field_activities.csv,ccb_mock.field_activities,Open/closed/scheduled field activities.
+ccb_service_history.csv,ccb_mock.service_history,"Transfers, tenant/owner changes, start/stop service history."
+ccb_lead_program.csv,ccb_mock.lead_program,Synthetic Lead Reduction Program records.

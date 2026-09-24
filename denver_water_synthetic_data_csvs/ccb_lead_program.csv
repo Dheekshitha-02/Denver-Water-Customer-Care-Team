@@ -1,0 +1,16 @@
+lead_program_id,premise_id,account_id,service_line_material,lead_status,replacement_required,inspection_date,replacement_date,program_status,notes
+LRP0001,PREM0003,ACC0003,Lead,Suspected Lead,True,2026-02-12,2026-10-15,Replacement Scheduled,Synthetic Lead Reduction Program record for POC.
+LRP0002,PREM0007,ACC0007,Lead,Inspection Complete,True,2026-02-23,,Active,Synthetic Lead Reduction Program record for POC.
+LRP0003,PREM0011,ACC0011,Unknown - Investigation Required,Confirmed Lead,False,2026-03-06,,Monitoring,Synthetic Lead Reduction Program record for POC.
+LRP0004,PREM0015,ACC0015,Lead,Suspected Lead,True,2026-03-17,,Active,Synthetic Lead Reduction Program record for POC.
+LRP0005,PREM0019,ACC0019,Lead,Inspection Complete,True,2026-03-28,,Active,Synthetic Lead Reduction Program record for POC.
+LRP0006,PREM0023,ACC0023,Unknown - Investigation Required,Confirmed Lead,False,2026-04-08,,Monitoring,Synthetic Lead Reduction Program record for POC.
+LRP0007,PREM0027,ACC0027,Lead,Suspected Lead,True,2026-04-19,,Active,Synthetic Lead Reduction Program record for POC.
+LRP0008,PREM0031,ACC0031,Lead,Inspection Complete,True,2026-04-30,,Active,Synthetic Lead Reduction Program record for POC.
+LRP0009,PREM0035,ACC0035,Unknown - Investigation Required,Confirmed Lead,False,2026-05-11,,Monitoring,Synthetic Lead Reduction Program record for POC.
+LRP0010,PREM0039,ACC0039,Lead,Suspected Lead,True,2026-05-22,,Active,Synthetic Lead Reduction Program record for POC.
+LRP0011,PREM0043,ACC0043,Lead,Inspection Complete,True,2026-06-02,,Active,Synthetic Lead Reduction Program record for POC.
+LRP0012,PREM0047,ACC0047,Unknown - Investigation Required,Confirmed Lead,False,2026-06-13,,Monitoring,Synthetic Lead Reduction Program record for POC.
+LRP0013,PREM0051,ACC0051,Lead,Suspected Lead,True,2026-06-24,,Active,Synthetic Lead Reduction Program record for POC.
+LRP0014,PREM0055,ACC0055,Lead,Inspection Complete,True,2026-07-05,,Active,Synthetic Lead Reduction Program record for POC.
+LRP0015,PREM0059,ACC0059,Unknown - Investigation Required,Confirmed Lead,False,2026-07-16,,Monitoring,Synthetic Lead Reduction Program record for POC.
