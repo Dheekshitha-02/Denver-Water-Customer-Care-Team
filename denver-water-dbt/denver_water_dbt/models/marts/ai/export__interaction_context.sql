@@ -2,6 +2,8 @@
 -- Hybrid shape: structured columns plus the OKF contract (id / title / url / content).
 -- url is null: the POC has no genuine Genesys deep link. The Customer Snapshot is a
 -- bounded slice of the matched account (full history lives in export__customer_context).
+-- The snapshot reflects the latest synced CC&B state, not the account as of the
+-- interaction date; the interaction and transcript sections are historical.
 {% set frontmatter = [
     "'interaction_id: ' || " ~ yaml_value('i.interaction_id'),
     "'conversation_id: ' || " ~ yaml_value('i.conversation_id'),
@@ -35,7 +37,7 @@
     "'# Transcript'", "''",
     md_list_or('i.transcript_text', 'No transcript available.'),
     "''",
-    "'# Customer Snapshot'", "''",
+    "'# Customer Snapshot (current, as of last sync)'", "''",
     "case when c.account_id is null then '_No CC&B customer matched to this interaction._' else "
         ~ md_line('Customer', "c.primary_person_name || coalesce(' (' || c.primary_relationship_type || ')', '')") ~ " || chr(10) || "
         ~ md_line('Account', "c.account_number || coalesce(' - ' || c.account_status || ' ' || c.account_type, '')") ~ " || chr(10) || "

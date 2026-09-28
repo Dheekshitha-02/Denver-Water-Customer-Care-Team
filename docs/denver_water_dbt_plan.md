@@ -162,8 +162,11 @@ All models drop soft-deleted rows (`_fivetran_deleted`) and add `synced_at` (UTC
 
 - **Customer:** Account Overview, Customer, Service and Meter, Billing, Usage,
   Field Activities, Contact Notes, Service History, Lead Program, Contact Center History.
-- **Interaction:** Interaction Summary, Transcript, Customer Snapshot (bounded;
-  explicit message when unmatched), Customer Match.
+- **Interaction:** Interaction Summary, Transcript, Customer Snapshot (current, as of
+  last sync), Customer Match. The interaction and transcript are historical; the
+  snapshot is the latest synced CC&B state (bounded; explicit message when unmatched),
+  not a point-in-time reconstruction at the interaction date. This suits live Agent
+  Assist, where the agent needs the account as it is today.
 - **Knowledge:** title, summary (if any), page text; frontmatter includes URL,
   category, content-as-of date and hash.
 
