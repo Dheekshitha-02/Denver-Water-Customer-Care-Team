@@ -1,0 +1,37 @@
+version: 2
+
+sources:
+  - name: denver_website
+    description: >
+      Public DenverWater.org Customer Care pages scraped by the denver_website
+      Connector SDK connection. content is already cleaned page text; url is the
+      genuine public citation.
+    database: "{{ 'website_raw' if target.type == 'duckdb' else var('denver_database') }}"
+    schema: "{{ 'tester' if target.type == 'duckdb' else var('website_schema') }}"
+    tables:
+      - name: denverwater_pages
+        description: One row per scraped page (page_id = SHA-256 of canonical URL).
+        columns:
+          - name: page_id
+            data_tests:
+              - unique
+              - not_null
+          - name: url
+            description: Canonical public URL; used as the knowledge citation.
+            data_tests:
+              - unique
+              - not_null
+          - name: title
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: content
+            description: Cleaned main page text. Scraper appears to cap length near 20k characters.
+            data_tests:
+              - not_null:
+                  config:
+                    severity: warn
+          - name: content_hash
+            data_tests:
+              - not_null

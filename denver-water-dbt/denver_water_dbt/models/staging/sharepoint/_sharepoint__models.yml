@@ -1,0 +1,25 @@
+version: 2
+
+models:
+  - name: stg_sharepoint__files
+    description: >
+      One row per SharePoint file (metadata only, no document text). Snowflake-only.
+      is_knowledge_document marks the DOCX knowledge articles; README / manifest
+      support files are false.
+    columns:
+      - name: file_id
+        data_tests: [unique, not_null]
+      - name: source_url
+        description: Genuine SharePoint URL (internal, access-controlled).
+        data_tests: [not_null]
+      - name: file_name
+        data_tests: [not_null]
+      - name: document_code
+        description: Leading code such as KB-001 or OPS-001; null for support files.
+        data_tests:
+          - unique
+          - not_null:
+              config:
+                where: "is_knowledge_document"
+      - name: is_knowledge_document
+        data_tests: [not_null]

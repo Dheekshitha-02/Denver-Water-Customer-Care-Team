@@ -1,0 +1,45 @@
+version: 2
+
+models:
+  - name: int_knowledge__website_documents
+    description: DenverWater.org pages in the common knowledge-document shape (public, genuine URL citation).
+    columns:
+      - name: document_id
+        data_tests: [unique, not_null]
+
+  - name: int_knowledge__sharepoint_documents
+    description: >
+      SharePoint knowledge DOCX files in the common shape. Metadata only (content null,
+      is_content_available false) until text extraction exists. Snowflake-only.
+    columns:
+      - name: document_id
+        data_tests: [unique, not_null]
+
+  - name: int_knowledge__documents
+    description: >
+      Union of all knowledge documents. The common document shape: document_id
+      (source_system:source_record_id), source_system, source_record_id, document_type,
+      visibility, title, source_url, category, category_group, summary, content,
+      content_length, content_hash, last_modified_at, content_as_of_at,
+      content_as_of_basis, is_content_available, synced_at.
+    columns:
+      - name: document_id
+        data_tests: [unique, not_null]
+      - name: source_system
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['denverwater_org', 'sharepoint']
+      - name: visibility
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['public', 'internal']
+      - name: title
+        data_tests: [not_null]
+      - name: source_url
+        description: Genuine citation URL (public DenverWater.org page or internal SharePoint file).
+        data_tests: [not_null]
+      - name: is_content_available
+        data_tests: [not_null]

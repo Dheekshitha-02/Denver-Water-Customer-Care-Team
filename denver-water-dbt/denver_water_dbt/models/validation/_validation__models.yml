@@ -1,0 +1,33 @@
+version: 2
+
+models:
+  - name: rpt_source_row_counts
+    description: Raw Fivetran row counts (total and non-deleted) vs. staged row counts, one row per source table.
+    columns:
+      - name: source_table
+        data_tests:
+          - unique
+          - not_null
+      - name: is_row_count_match
+        description: True when staging kept every non-deleted raw row.
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: [true]
+                quote: false
+
+  - name: rpt_customer_match_rate
+    description: Genesys interactions by customer match method and account pick reason, with percentages.
+    columns:
+      - name: match_method
+        data_tests:
+          - not_null
+
+  - name: rpt_knowledge_coverage
+    description: >
+      Knowledge documents per source system: total, content-available, exported to
+      export__knowledge_context, and not exported (e.g. SharePoint files awaiting text extraction).
+    columns:
+      - name: source_system
+        data_tests:
+          - not_null

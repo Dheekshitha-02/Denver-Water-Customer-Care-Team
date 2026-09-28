@@ -1,0 +1,31 @@
+version: 2
+
+sources:
+  - name: sharepoint
+    description: >
+      Internal Customer Care knowledge files replicated by Fivetran unstructured
+      file replication. Metadata / file references only: there is NO extracted
+      document text yet. Disabled on DuckDB dev (see dbt_project.yml).
+    database: "{{ var('denver_database') }}"
+    schema: "{{ var('sharepoint_schema') }}"
+    tables:
+      - name: sharepoint_knowledge
+        description: >
+          One row per file (13 knowledge DOCX files plus README.txt and
+          SHAREPOINT_DOCUMENT_MANIFEST.csv at Step 0).
+        columns:
+          - name: file_id
+            data_tests:
+              - unique
+              - not_null
+          - name: _fivetran_file_path
+            description: Path within the library, e.g. "Customer Care Knowledge Base/KB-001_....docx".
+            data_tests:
+              - not_null
+              - unique
+          - name: url
+            description: Genuine SharePoint URL (internal, access-controlled); citation for internal knowledge.
+            data_tests:
+              - not_null
+          - name: custom_metadata
+            description: VARIANT of Microsoft Graph list-item fields (FileLeafRef, DocIcon, ContentType, ...).

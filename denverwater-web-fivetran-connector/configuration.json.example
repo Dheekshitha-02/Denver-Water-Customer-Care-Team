@@ -1,0 +1,10 @@
+{
+  "base_url": "https://www.denverwater.org",
+  "seed_urls": "/manage-account,/residential/billing-and-rates,/residential/services-and-information/start-or-stop-service,/residential/rebates-and-conservation-tips/summer-watering-rules,/contact/customer-care-contact",
+  "allowed_path_prefixes": "/residential/,/manage-account,/contact/",
+  "max_pages": "40",
+  "max_depth": "2",
+  "request_delay_seconds": "1.0",
+  "request_timeout_seconds": "30",
+  "user_agent": "DenverWater-POC-FivetranConnector/1.0 (+https://www.denverwater.org; POC)"
+}

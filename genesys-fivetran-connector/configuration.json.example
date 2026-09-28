@@ -1,0 +1,10 @@
+{
+  "host": "aws-0-us-west-2.pooler.supabase.com",
+  "port": "5432",
+  "database": "postgres",
+  "user": "postgres.dytwnujgjxmjrltgfawy",
+  "password": "<YOUR_DATABASE_PASSWORD>",
+  "schema": "genesys_mock",
+  "sslmode": "require",
+  "historical_sync_start_date": "2020-01-01T00:00:00Z"
+}

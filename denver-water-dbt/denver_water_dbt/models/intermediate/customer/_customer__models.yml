@@ -1,0 +1,70 @@
+version: 2
+
+models:
+  - name: int_customer__person_accounts
+    description: >
+      One row per person-to-account relationship with normalized phone / email.
+      Used to find a customer from a contact point (interaction match, live-call lookup).
+    columns:
+      - name: account_person_id
+        data_tests: [unique, not_null]
+      - name: account_id
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_ccb__accounts')
+                field: account_id
+      - name: person_id
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_ccb__persons')
+                field: person_id
+
+  - name: int_customer__account_service
+    description: One row per account with its premise, service point, meter and lead program status.
+    columns:
+      - name: account_id
+        data_tests: [unique, not_null]
+
+  - name: int_customer__billing_summary
+    description: >
+      One row per account: latest bill, open bills, last payment and 12-month totals
+      (window anchored on the account's latest bill date).
+    columns:
+      - name: account_id
+        data_tests: [unique, not_null]
+
+  - name: int_customer__usage_summary
+    description: "One row per account: latest read period and 12-month usage (anchored on latest period_end)."
+    columns:
+      - name: account_id
+        data_tests: [unique, not_null]
+
+  - name: int_customer__activity_summary
+    description: >
+      One row per account: open field activities, recent contact notes (author from
+      Genesys users) and recent service history, with capped markdown bullet lists.
+    columns:
+      - name: account_id
+        data_tests: [unique, not_null]
+
+  - name: int_customer__account_360
+    description: >
+      One row per account: the assembled customer context (account, primary and linked
+      persons, service, billing, usage, activity, matched interactions).
+    columns:
+      - name: account_id
+        data_tests:
+          - unique
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_ccb__accounts')
+                field: account_id
+      - name: account_number
+        data_tests: [unique, not_null]
+      - name: primary_person_id
+        data_tests: [not_null]

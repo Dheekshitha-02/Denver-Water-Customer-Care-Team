@@ -1,0 +1,106 @@
+version: 2
+
+models:
+  - name: export__customer_context
+    description: >
+      AI-facing customer context, one row per CC&B account. Hybrid: structured columns
+      plus OKF id / title / url / content. url is intentionally null (no genuine CC&B
+      deep link in the POC); source_reference (ccb:account:<id>) is the lineage key.
+    columns:
+      - name: id
+        description: CC&B account number.
+        data_tests: [unique, not_null]
+      - name: title
+        data_tests: [not_null]
+      - name: url
+        description: Always null in the POC. Synthetic links are never emitted as citations.
+      - name: content
+        description: OKF document (YAML frontmatter + markdown body).
+        data_tests: [not_null]
+      - name: account_id
+        data_tests: [unique, not_null]
+      - name: source_system
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['oracle_ccb']
+      - name: source_reference
+        data_tests: [unique, not_null]
+      - name: data_classification
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['synthetic_poc', 'production']
+
+  - name: export__interaction_context
+    description: >
+      AI-facing interaction context, one row per Genesys interaction, with a bounded
+      snapshot of the matched CC&B customer. url is intentionally null (no genuine
+      Genesys deep link in the POC); source_reference (genesys:interaction:<id>) is the
+      lineage key.
+    columns:
+      - name: id
+        description: Genesys interaction id.
+        data_tests: [unique, not_null]
+      - name: title
+        data_tests: [not_null]
+      - name: url
+        description: Always null in the POC. Synthetic links are never emitted as citations.
+      - name: content
+        data_tests: [not_null]
+      - name: account_id
+        description: Matched CC&B account; joins to export__customer_context.account_id.
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('export__customer_context')
+                field: account_id
+      - name: match_method
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['phone', 'email', 'ambiguous', 'unmatched']
+      - name: source_system
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['genesys_cloud']
+      - name: source_reference
+        data_tests: [unique, not_null]
+      - name: data_classification
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['synthetic_poc', 'production']
+
+  - name: export__knowledge_context
+    description: >
+      AI-facing knowledge context, one row per document with content. DenverWater.org
+      only until SharePoint text extraction exists. url is the genuine citation.
+    columns:
+      - name: id
+        description: document_id (source_system:source_record_id).
+        data_tests: [unique, not_null]
+      - name: title
+        data_tests: [not_null]
+      - name: url
+        description: Genuine source URL used for citations.
+        data_tests: [unique, not_null]
+      - name: content
+        data_tests: [not_null]
+      - name: source_system
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['denverwater_org', 'sharepoint']
+      - name: visibility
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['public', 'internal']
+      - name: document_text
+        description: Raw document text without frontmatter (for later chunking / embeddings).
+        data_tests: [not_null]

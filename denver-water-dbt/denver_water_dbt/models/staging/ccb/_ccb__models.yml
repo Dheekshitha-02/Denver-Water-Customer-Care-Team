@@ -1,0 +1,94 @@
+version: 2
+
+models:
+  - name: stg_ccb__persons
+    description: >
+      One row per person_id. Adds full_name, phone_norm, alternate_phone_norm and
+      email_norm for the Genesys customer match; zip_code is 5-character text.
+    columns:
+      - name: person_id
+        data_tests: [unique, not_null]
+
+  - name: stg_ccb__accounts
+    description: One row per account_id. account_number is text; money is decimal(12,2).
+    columns:
+      - name: account_id
+        data_tests: [unique, not_null]
+      - name: account_number
+        data_tests: [unique, not_null]
+
+  - name: stg_ccb__account_persons
+    description: One row per account_person_id (person-to-account relationship).
+    columns:
+      - name: account_person_id
+        data_tests: [unique, not_null]
+
+  - name: stg_ccb__premises
+    description: One row per premise_id; account_id links the premise to its account.
+    columns:
+      - name: premise_id
+        data_tests: [unique, not_null]
+
+  - name: stg_ccb__service_points
+    description: One row per service_point_id.
+    columns:
+      - name: service_point_id
+        data_tests: [unique, not_null]
+
+  - name: stg_ccb__meters
+    description: One row per meter_id.
+    columns:
+      - name: meter_id
+        data_tests: [unique, not_null]
+
+  - name: stg_ccb__bills
+    description: One row per bill_id.
+    columns:
+      - name: bill_id
+        data_tests: [unique, not_null]
+      - name: bill_date
+        data_tests: [not_null]
+
+  - name: stg_ccb__payments
+    description: One row per payment_id.
+    columns:
+      - name: payment_id
+        data_tests: [unique, not_null]
+      - name: payment_date
+        data_tests: [not_null]
+
+  - name: stg_ccb__consumption
+    description: One row per consumption_id (one meter read period).
+    columns:
+      - name: consumption_id
+        data_tests: [unique, not_null]
+      - name: period_end
+        data_tests: [not_null]
+
+  - name: stg_ccb__contact_notes
+    description: One row per contact_note_id. created_by_user_id is a Genesys user_id.
+    columns:
+      - name: contact_note_id
+        data_tests: [unique, not_null]
+      - name: contact_date
+        data_tests: [not_null]
+
+  - name: stg_ccb__field_activities
+    description: One row per field_activity_id. is_open is true unless activity_status = 'Completed'.
+    columns:
+      - name: field_activity_id
+        data_tests: [unique, not_null]
+      - name: is_open
+        data_tests: [not_null]
+
+  - name: stg_ccb__service_history
+    description: One row per service_history_id.
+    columns:
+      - name: service_history_id
+        data_tests: [unique, not_null]
+
+  - name: stg_ccb__lead_program
+    description: One row per lead_program_id.
+    columns:
+      - name: lead_program_id
+        data_tests: [unique, not_null]

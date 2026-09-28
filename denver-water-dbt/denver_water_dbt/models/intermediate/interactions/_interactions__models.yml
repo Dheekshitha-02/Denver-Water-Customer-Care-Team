@@ -1,0 +1,70 @@
+version: 2
+
+models:
+  - name: int_interactions__transcript
+    description: One row per interaction with the ordered transcript text (one line per turn).
+    columns:
+      - name: interaction_id
+        data_tests:
+          - unique
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_genesys__interactions')
+                field: interaction_id
+      - name: transcript_text
+        data_tests: [not_null]
+
+  - name: int_interactions__customer_match
+    description: >
+      One row per interaction resolved to at most one CC&B person / account by
+      normalized phone, then email. Ambiguous matches attach no customer.
+    columns:
+      - name: interaction_id
+        data_tests: [unique, not_null]
+      - name: match_method
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['phone', 'email', 'ambiguous', 'unmatched']
+      - name: matched_contact_field
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['phone', 'alternate_phone', 'email']
+      - name: person_id
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('stg_ccb__persons')
+                field: person_id
+      - name: account_id
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('stg_ccb__accounts')
+                field: account_id
+      - name: account_pick_reason
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['primary_relationship', 'non_primary_relationship', 'person_has_no_account']
+
+  - name: int_interactions__enriched
+    description: >
+      One row per interaction with queue / agent / wrap-up labels, customer participant,
+      transcript and CC&B match.
+    columns:
+      - name: interaction_id
+        data_tests:
+          - unique
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_genesys__interactions')
+                field: interaction_id
+      - name: queue_name
+        data_tests: [not_null]
+      - name: agent_name
+        data_tests: [not_null]

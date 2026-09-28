@@ -1,0 +1,330 @@
+version: 2
+
+sources:
+  - name: ccb
+    description: >
+      Synthetic Oracle CC&B customer / account / service data synced as-is by
+      the denver_ccb Connector SDK connection (full-table upsert by primary key).
+    database: "{{ 'ccb_raw' if target.type == 'duckdb' else var('denver_database') }}"
+    schema: "{{ 'tester' if target.type == 'duckdb' else var('ccb_schema') }}"
+    tables:
+      - name: persons
+        description: Customer identities. Phone / email are the only link to Genesys.
+        columns:
+          - name: person_id
+            data_tests:
+              - unique
+              - not_null
+
+      - name: accounts
+        description: Billing accounts and balances. account_number is NUMBER in Snowflake.
+        columns:
+          - name: account_id
+            data_tests:
+              - unique
+              - not_null
+          - name: account_number
+            data_tests:
+              - unique
+              - not_null
+          - name: account_status
+            data_tests:
+              - accepted_values:
+                  arguments:
+                    values: ['Active', 'Closed']
+          - name: account_type
+            data_tests:
+              - accepted_values:
+                  arguments:
+                    values: ['Residential', 'Commercial']
+
+      - name: account_persons
+        description: Person-to-account relationships. There is no end_date column.
+        columns:
+          - name: account_person_id
+            data_tests:
+              - unique
+              - not_null
+          - name: account_id
+            data_tests:
+              - not_null
+              - relationships:
+                  arguments:
+                    to: source('ccb', 'accounts')
+                    field: account_id
+          - name: person_id
+            data_tests:
+              - not_null
+              - relationships:
+                  arguments:
+                    to: source('ccb', 'persons')
+                    field: person_id
+          - name: is_primary
+            data_tests:
+              - not_null
+          - name: relationship_type
+            data_tests:
+              - accepted_values:
+                  arguments:
+                    values: ['Owner', 'Tenant', 'Authorized Person', 'Property Manager']
+
+      - name: premises
+        description: Service properties. The premise points to its account (premises.account_id).
+        columns:
+          - name: premise_id
+            data_tests:
+              - unique
+              - not_null
+          - name: account_id
+            data_tests:
+              - not_null
+              - relationships:
+                  arguments:
+                    to: source('ccb', 'accounts')
+                    field: account_id
+
+      - name: service_points
+        description: Metered service / tap points at a premise.
+        columns:
+          - name: service_point_id
+            data_tests:
+              - unique
+              - not_null
+          - name: premise_id
+            data_tests:
+              - not_null
+              - relationships:
+                  arguments:
+                    to: source('ccb', 'premises')
+                    field: premise_id
+
+      - name: meters
+        description: Meters installed at a service point.
+        columns:
+          - name: meter_id
+            data_tests:
+              - unique
+              - not_null
+          - name: service_point_id
+            data_tests:
+              - not_null
+              - relationships:
+                  arguments:
+                    to: source('ccb', 'service_points')
+                    field: service_point_id
+
+      - name: bills
+        description: Monthly bills (12 months per account in the synthetic data).
+        columns:
+          - name: bill_id
+            data_tests:
+              - unique
+              - not_null
+          - name: account_id
+            data_tests:
+              - not_null
+              - relationships:
+                  arguments:
+                    to: source('ccb', 'accounts')
+                    field: account_id
+          - name: bill_status
+            data_tests:
+              - accepted_values:
+                  arguments:
+                    values: ['Open', 'Paid']
+
+      - name: payments
+        description: Non-sensitive payment history.
+        columns:
+          - name: payment_id
+            data_tests:
+              - unique
+              - not_null
+          - name: account_id
+            data_tests:
+              - not_null
+              - relationships:
+                  arguments:
+                    to: source('ccb', 'accounts')
+                    field: account_id
+          - name: bill_id
+            data_tests:
+              - relationships:
+                  arguments:
+                    to: source('ccb', 'bills')
+                    field: bill_id
+          - name: payment_status
+            data_tests:
+              - accepted_values:
+                  arguments:
+                    values: ['Posted']
+                  config:
+                    severity: warn
+
+      - name: consumption
+        description: Monthly meter reads and usage.
+        columns:
+          - name: consumption_id
+            data_tests:
+              - unique
+              - not_null
+          - name: account_id
+            data_tests:
+              - not_null
+              - relationships:
+                  arguments:
+                    to: source('ccb', 'accounts')
+                    field: account_id
+          - name: premise_id
+            data_tests:
+              - relationships:
+                  arguments:
+                    to: source('ccb', 'premises')
+                    field: premise_id
+          - name: meter_id
+            data_tests:
+              - relationships:
+                  arguments:
+                    to: source('ccb', 'meters')
+                    field: meter_id
+          - name: usage_flag
+            data_tests:
+              - accepted_values:
+                  arguments:
+                    values: ['NORMAL', 'HIGH', 'LOW']
+
+      - name: contact_notes
+        description: >
+          Historical customer contact notes. created_by holds a Genesys user_id;
+          there is no interaction_id.
+        columns:
+          - name: contact_note_id
+            data_tests:
+              - unique
+              - not_null
+          - name: account_id
+            data_tests:
+              - not_null
+              - relationships:
+                  arguments:
+                    to: source('ccb', 'accounts')
+                    field: account_id
+          - name: person_id
+            data_tests:
+              - relationships:
+                  arguments:
+                    to: source('ccb', 'persons')
+                    field: person_id
+          - name: created_by
+            description: Genesys user_id of the authoring agent (cross-system link).
+            data_tests:
+              - relationships:
+                  arguments:
+                    to: source('genesys', 'users')
+                    field: user_id
+                  config:
+                    severity: warn
+
+      - name: field_activities
+        description: Open / scheduled / dispatched / completed field work.
+        columns:
+          - name: field_activity_id
+            data_tests:
+              - unique
+              - not_null
+          - name: account_id
+            data_tests:
+              - not_null
+              - relationships:
+                  arguments:
+                    to: source('ccb', 'accounts')
+                    field: account_id
+          - name: premise_id
+            data_tests:
+              - relationships:
+                  arguments:
+                    to: source('ccb', 'premises')
+                    field: premise_id
+          - name: service_point_id
+            data_tests:
+              - relationships:
+                  arguments:
+                    to: source('ccb', 'service_points')
+                    field: service_point_id
+          - name: activity_status
+            data_tests:
+              - accepted_values:
+                  arguments:
+                    values: ['Open', 'Scheduled', 'Dispatched', 'Completed']
+
+      - name: service_history
+        description: Start / stop / transfer / relationship-change events. There is no end_date column.
+        columns:
+          - name: service_history_id
+            data_tests:
+              - unique
+              - not_null
+          - name: account_id
+            data_tests:
+              - not_null
+              - relationships:
+                  arguments:
+                    to: source('ccb', 'accounts')
+                    field: account_id
+          - name: premise_id
+            data_tests:
+              - relationships:
+                  arguments:
+                    to: source('ccb', 'premises')
+                    field: premise_id
+          - name: person_id
+            data_tests:
+              - relationships:
+                  arguments:
+                    to: source('ccb', 'persons')
+                    field: person_id
+          - name: event_type
+            data_tests:
+              - accepted_values:
+                  arguments:
+                    values:
+                      - 'Service Started'
+                      - 'Service Stopped'
+                      - 'Transfer of Service'
+                      - 'Owner Changed'
+                      - 'Tenant Changed'
+                      - 'Management Company Changed'
+                  config:
+                    severity: warn
+
+      - name: lead_program
+        description: Synthetic Lead Reduction Program records.
+        columns:
+          - name: lead_program_id
+            data_tests:
+              - unique
+              - not_null
+          - name: account_id
+            data_tests:
+              - relationships:
+                  arguments:
+                    to: source('ccb', 'accounts')
+                    field: account_id
+          - name: premise_id
+            data_tests:
+              - relationships:
+                  arguments:
+                    to: source('ccb', 'premises')
+                    field: premise_id
+          - name: lead_status
+            data_tests:
+              - accepted_values:
+                  arguments:
+                    values: ['Suspected Lead', 'Confirmed Lead', 'Inspection Complete']
+          - name: program_status
+            data_tests:
+              - accepted_values:
+                  arguments:
+                    values: ['Active', 'Monitoring', 'Replacement Scheduled']
+                  config:
+                    severity: warn

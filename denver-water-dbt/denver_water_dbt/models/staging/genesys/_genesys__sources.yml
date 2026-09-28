@@ -1,0 +1,140 @@
+version: 2
+
+sources:
+  - name: genesys
+    description: >
+      Synthetic Genesys Cloud contact-center data synced as-is by the
+      denver_genesys Connector SDK connection (full-table upsert by primary key).
+    # DuckDB dev reads the connector's local debug warehouse; Snowflake reads
+    # the Fivetran destination (verified in Step 0).
+    database: "{{ 'genesys_raw' if target.type == 'duckdb' else var('denver_database') }}"
+    schema: "{{ 'tester' if target.type == 'duckdb' else var('genesys_schema') }}"
+    tables:
+      - name: users
+        description: Genesys CSR / supervisor users (agents).
+        columns:
+          - name: user_id
+            data_tests:
+              - unique
+              - not_null
+
+      - name: queues
+        description: Queues / lines of business.
+        columns:
+          - name: queue_id
+            data_tests:
+              - unique
+              - not_null
+
+      - name: wrap_up_codes
+        description: POC wrap-up taxonomy (not Denver Water's real codes).
+        columns:
+          - name: wrap_up_code_id
+            data_tests:
+              - unique
+              - not_null
+          - name: code
+            data_tests:
+              - unique
+
+      - name: interactions
+        description: >
+          Voice / chat / email interactions. The customer is identified only by
+          customer_phone / customer_email; there is no CC&B key.
+        columns:
+          - name: interaction_id
+            data_tests:
+              - unique
+              - not_null
+          - name: conversation_id
+            data_tests:
+              - unique
+          - name: started_at
+            data_tests:
+              - not_null
+          - name: channel
+            data_tests:
+              - not_null
+              - accepted_values:
+                  arguments:
+                    values: ['voice', 'chat', 'email']
+          - name: direction
+            data_tests:
+              - accepted_values:
+                  arguments:
+                    values: ['inbound', 'outbound']
+          - name: status
+            data_tests:
+              - accepted_values:
+                  arguments:
+                    values: ['completed']
+                  config:
+                    severity: warn
+          - name: queue_id
+            data_tests:
+              - relationships:
+                  arguments:
+                    to: source('genesys', 'queues')
+                    field: queue_id
+          - name: agent_user_id
+            data_tests:
+              - relationships:
+                  arguments:
+                    to: source('genesys', 'users')
+                    field: user_id
+          - name: wrap_up_code_id
+            data_tests:
+              - relationships:
+                  arguments:
+                    to: source('genesys', 'wrap_up_codes')
+                    field: wrap_up_code_id
+
+      - name: participants
+        description: Customer and agent participants for each interaction.
+        columns:
+          - name: participant_id
+            data_tests:
+              - unique
+              - not_null
+          - name: interaction_id
+            data_tests:
+              - not_null
+              - relationships:
+                  arguments:
+                    to: source('genesys', 'interactions')
+                    field: interaction_id
+          - name: participant_type
+            data_tests:
+              - accepted_values:
+                  arguments:
+                    values: ['customer', 'agent']
+          - name: user_id
+            description: Populated for agent participants only.
+            data_tests:
+              - relationships:
+                  arguments:
+                    to: source('genesys', 'users')
+                    field: user_id
+
+      - name: transcripts
+        description: Simulated transcript turns, ordered by sequence_number.
+        columns:
+          - name: transcript_id
+            data_tests:
+              - unique
+              - not_null
+          - name: interaction_id
+            data_tests:
+              - not_null
+              - relationships:
+                  arguments:
+                    to: source('genesys', 'interactions')
+                    field: interaction_id
+          - name: sequence_number
+            data_tests:
+              - not_null
+          - name: speaker
+            data_tests:
+              - accepted_values:
+                  arguments:
+                    values: ['customer', 'agent']

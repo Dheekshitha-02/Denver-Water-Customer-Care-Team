@@ -1,0 +1,65 @@
+name: 'denver_water_dbt'
+version: '1.0.0'
+
+profile: 'denver_water_dbt'
+
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+vars:
+  # Fivetran destination (Snowflake). Local DuckDB dev ignores these and reads
+  # the attached connector warehouses instead (see models/staging/*/_*__sources.yml).
+  denver_database: FIVETRAN_DATABASE_DENVER
+  genesys_schema: DENVER_GENESYS
+  ccb_schema: DENVER_CCB
+  website_schema: DENVER_WEBSITE
+  sharepoint_schema: DENVER_SHAREPOINT
+
+  # Genesys and CC&B are synthetic POC datasets. Exports label them as such and
+  # never emit made-up deep links as citations (url is null for those exports).
+  poc_synthetic_data: true
+
+  # Caps on the "most recent N" lists built for AI context.
+  context_open_field_activity_limit: 3
+  context_contact_note_limit: 3
+  context_service_history_limit: 3
+
+# Output schemas are used verbatim (macros/generate_schema_name.sql).
+models:
+  denver_water_dbt:
+    staging:
+      +materialized: ephemeral
+      sharepoint:
+        +enabled: "{{ var('enable_sharepoint', target.type != 'duckdb') }}"
+    intermediate:
+      +materialized: view
+      +schema: DENVER_DBT_INT
+    marts:
+      ai:
+        +materialized: table
+        +schema: DENVER_AI
+    validation:
+      +materialized: view
+      +schema: DENVER_DBT_VALIDATION
+
+data_tests:
+  denver_water_dbt:
+    staging:
+      sharepoint:
+        +enabled: "{{ var('enable_sharepoint', target.type != 'duckdb') }}"
+
+sources:
+  denver_water_dbt:
+    # No local SharePoint warehouse exists, so the source is off on DuckDB dev.
+    # Force on/off with --vars '{enable_sharepoint: true}'.
+    staging:
+      sharepoint:
+        +enabled: "{{ var('enable_sharepoint', target.type != 'duckdb') }}"

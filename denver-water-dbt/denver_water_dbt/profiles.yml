@@ -1,0 +1,25 @@
+denver_water_dbt:
+  target: dev
+  outputs:
+    # Local debug: raw data from each connector's `fivetran debug` warehouse.
+    # SharePoint uses Fivetran file replication and has no local warehouse.
+    # Snowflake runs happen in Fivetran Transformations with its own connection.
+    dev:
+      type: duckdb
+      path: dev.duckdb
+      schema: main
+      threads: 4
+      settings:
+        # Naive local timestamp strings are interpreted as UTC, matching the
+        # UTC TIMESTAMP_TZ values Fivetran writes to Snowflake.
+        TimeZone: UTC
+      attach:
+        - path: ../../genesys-fivetran-connector/files/warehouse.db
+          alias: genesys_raw
+          read_only: true
+        - path: ../../ccb-fivetran-connector/files/warehouse.db
+          alias: ccb_raw
+          read_only: true
+        - path: ../../denverwater-web-fivetran-connector/files/warehouse.db
+          alias: website_raw
+          read_only: true

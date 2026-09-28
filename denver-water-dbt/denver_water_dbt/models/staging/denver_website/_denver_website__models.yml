@@ -1,0 +1,36 @@
+version: 2
+
+models:
+  - name: stg_denver_website__pages
+    description: >
+      One row per DenverWater.org page. source_url is the genuine public citation.
+      content_as_of_at falls back to scraped_at when last_modified is missing
+      (content_as_of_basis records which was used).
+    columns:
+      - name: page_id
+        data_tests: [unique, not_null]
+      - name: source_url
+        data_tests: [unique, not_null]
+      - name: source_system
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['denverwater_org']
+      - name: category_group
+        description: First path segment of category (e.g. residential, contact, manage-account).
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['residential', 'contact', 'manage-account']
+              config:
+                severity: warn
+      - name: content_length
+        description: Character length of trimmed content; the scraper appears to cap near 20k.
+      - name: content_as_of_at
+        data_tests: [not_null]
+      - name: content_as_of_basis
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['last_modified', 'scraped_at']
